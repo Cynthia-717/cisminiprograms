@@ -20,8 +20,9 @@ function courseName(course) {
 
 function displayCourseName(course) {
   const name = courseName(course);
-  return name.startsWith('數位自學 ')
-    ? `<strong>數位自學</strong> - ${name.slice('數位自學 '.length)}`
+  const digitalCourse = name.match(/^數位自學\s*(.*)$/);
+  return digitalCourse
+    ? `<strong>數位自學 - ${digitalCourse[1]}</strong>`
     : name;
 }
 

@@ -47,8 +47,9 @@ function renderDetailPage() {
                 ? course
                 : [course.prefix, course.name || course.courseName || course.title].filter(Boolean).join(' ');
               const category = typeof course === 'string' ? '未分類' : (course.category || course.type || '未分類');
-              const displayName = name.startsWith('數位自學 ')
-                ? `<strong>數位自學</strong> - ${name.slice('數位自學 '.length)}`
+              const digitalCourse = name.match(/^數位自學\s*(.*)$/);
+              const displayName = digitalCourse
+                ? `<strong>數位自學 - ${digitalCourse[1]}</strong>`
                 : name;
               return `<li>${category}：${displayName}</li>`;
             }).join('') : '<li>此規劃書尚未匯入課程資料。</li>'}
