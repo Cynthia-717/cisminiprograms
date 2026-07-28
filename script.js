@@ -1,26 +1,48 @@
 let microProgramsData = [];
 
+function cleanProgramName(rawName) {
+  if (!rawName) return '未命名規劃書';
+
+  const normalized = rawName
+    .replace(/\s+/g, ' ')
+    .replace(/（[^）]*）/g, '')
+    .replace(/\[[^\]]*\]/g, '')
+    .trim();
+
+  const match = normalized.match(/(.+規劃書)/);
+  return match ? match[1].trim() : normalized;
+}
+
 async function loadData() {
   try {
-    const response = await fetch('./data.json');
-    const data = await response.json();
+    let data = [];
+
+    if (window.microProgramsDataSeed && Array.isArray(window.microProgramsDataSeed)) {
+      data = window.microProgramsDataSeed;
+    } else {
+      const response = await fetch('./data.json');
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      data = await response.json();
+    }
+
     microProgramsData = data.map((item, index) => ({
       id: `${item.domain}-${index}`,
       domain: item.domain,
       domainKey: item.domain.replace(/領域/g, '').trim(),
-      programName: item.programName,
+      programName: cleanProgramName(item.programName),
       year: item.year,
       semester: item.semester,
       type: item.type,
-      courses: item.courses.length ? item.courses : [item.programName]
+      courses: Array.isArray(item.courses) && item.courses.length ? item.courses : [cleanProgramName(item.programName)]
     }));
+
     populateFilters();
     renderSummary();
     renderAggregateView();
     renderSingleSearch();
     renderBatchAnalysis();
   } catch (error) {
-    console.error('Failed to load data.json', error);
+    console.error('Failed to load data', error);
     microProgramsData = [];
   }
 }
@@ -39,6 +61,7 @@ const batchResult = document.getElementById("batchResult");
 const domainFilter = document.getElementById("domainFilter");
 const yearFilter = document.getElementById("yearFilter");
 const summaryCards = document.getElementById("summaryCards");
+const summaryOverview = document.getElementById("summaryOverview");
 const programList = document.getElementById("programList");
 const aggregateDomain = document.getElementById("aggregateDomain");
 const aggregateResult = document.getElementById("aggregateResult");
@@ -148,19 +171,26 @@ function getUniqueYears() {
 
 function populateFilters() {
   const domainOptions = ['all', ...getUniqueDomains()];
-  domainFilter.innerHTML = domainOptions
-    .map((domain) => `<option value="${domain}">${domain === "all" ? "全部" : domain}</option>`)
-    .join("");
 
-  const yearOptions = ['all', ...getUniqueYears()];
-  yearFilter.innerHTML = yearOptions
-    .map((year) => `<option value="${year}">${year === "all" ? "全部" : `${year}學年度`}</option>`)
-    .join("");
+  if (domainFilter) {
+    domainFilter.innerHTML = domainOptions
+      .map((domain) => `<option value="${domain}">${domain === "all" ? "全部" : domain}</option>`)
+      .join("");
+  }
 
-  aggregateDomain.innerHTML = domainOptions
-    .filter((domain) => domain !== "all")
-    .map((domain) => `<option value="${domain}">${domain}</option>`)
-    .join("");
+  if (yearFilter) {
+    const yearOptions = ['all', ...getUniqueYears()];
+    yearFilter.innerHTML = yearOptions
+      .map((year) => `<option value="${year}">${year === "all" ? "全部" : `${year}學年度`}</option>`)
+      .join("");
+  }
+
+  if (aggregateDomain) {
+    aggregateDomain.innerHTML = domainOptions
+      .filter((domain) => domain !== "all")
+      .map((domain) => `<option value="${domain}">${domain}</option>`)
+      .join("");
+  }
 }
 
 function getFilteredPrograms() {
@@ -171,6 +201,134 @@ function getFilteredPrograms() {
   });
 }
 
+function renderOverviewTable() {
+  if (!summaryOverview) return;
+
+  const grouped = getFilteredPrograms().reduce((acc, program) => {
+    const key = `${program.domain}::${program.year}`;
+    if (!acc[key]) {
+      acc[key] = {
+        domain: program.domain,
+        year: program.year,
+        programs: [],
+        courseCount: 0
+      };
+    }
+
+    acc[key].programs.push(program);
+    acc[key].courseCount += program.courses.length;
+    return acc;
+  }, {});
+
+  const rows = Object.values(grouped).sort((a, b) => {
+    if (a.domain === b.domain) return a.year - b.year;
+    return a.domain.localeCompare(b.domain, 'zh-Hant');
+  });
+
+  summaryOverview.innerHTML = rows.length
+    ? `
+      <table class="overview-table">
+        <thead>
+          <tr>
+            <th>領域</th>
+            <th>學年度</th>
+            <th>規劃書數</th>
+            <th>課程數</th>
+            <th>操作</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${rows.map((row) => `
+            <tr>
+              <td>${row.domain}</td>
+              <td>${row.year}學年度</td>
+              <td>${row.programs.length}</td>
+              <td>${row.courseCount}</td>
+              <td><a class="detail-link" href="detail.html?domain=${encodeURIComponent(row.domain)}&year=${row.year}">查看詳情</a></td>
+            </tr>
+          `).join('')}
+        </tbody>
+      </table>
+    `
+    : '<p>目前沒有可顯示的統計資料。</p>';
+}
+
+function renderFullListTree() {
+  if (!aggregateResult || !aggregateDomain) return;
+
+  const selectedDomain = aggregateDomain.value;
+  const filteredPrograms = microProgramsData.filter((program) => selectedDomain === 'all' || program.domain === selectedDomain);
+
+  if (!filteredPrograms.length) {
+    aggregateResult.innerHTML = '<p>目前沒有符合此領域的資料。</p>';
+    return;
+  }
+
+  const groupedByYear = filteredPrograms.reduce((acc, program) => {
+    if (!acc[program.year]) acc[program.year] = [];
+    acc[program.year].push(program);
+    return acc;
+  }, {});
+
+  const yearItems = Object.entries(groupedByYear)
+    .sort(([a], [b]) => Number(a) - Number(b))
+    .map(([year, yearPrograms], yearIndex) => {
+      const yearId = `year-${yearIndex}`;
+      const groupedByType = yearPrograms.reduce((acc, program) => {
+        if (!acc[program.type]) acc[program.type] = [];
+        acc[program.type].push(program);
+        return acc;
+      }, {});
+
+      const typeItems = Object.entries(groupedByType)
+        .sort(([a], [b]) => a.localeCompare(b, 'zh-Hant'))
+        .map(([type, typePrograms], typeIndex) => {
+          const typeId = `type-${yearIndex}-${typeIndex}`;
+          const programItems = typePrograms
+            .map((program) => `
+              <div class="tree-node leaf">
+                <div class="tree-label">${program.programName}</div>
+                <div class="tree-meta">${program.semester} • ${program.type}</div>
+                <ul class="tree-course-list">
+                  ${program.courses.map((course) => `<li>${course}</li>`).join('')}
+                </ul>
+              </div>
+            `)
+            .join('');
+
+          return `
+            <div class="tree-node branch">
+              <button class="tree-toggle" data-target="${typeId}">${type}</button>
+              <div class="tree-children" id="${typeId}" style="display:none;">${programItems}</div>
+            </div>
+          `;
+        })
+        .join('');
+
+      return `
+        <div class="tree-node branch">
+          <button class="tree-toggle" data-target="${yearId}">${year}學年度</button>
+          <div class="tree-children" id="${yearId}" style="display:none;">${typeItems}</div>
+        </div>
+      `;
+    })
+    .join('');
+
+  aggregateResult.innerHTML = yearItems || '<p>目前沒有資料。</p>';
+
+  document.querySelectorAll('.tree-toggle').forEach((button) => {
+    button.addEventListener('click', () => {
+      const targetId = button.getAttribute('data-target');
+      const target = document.getElementById(targetId);
+      if (target) {
+        const isOpen = target.style.display === 'block';
+        target.style.display = isOpen ? 'none' : 'block';
+        button.classList.toggle('open', !isOpen);
+      }
+    });
+  });
+}
+
 function renderSummary() {
   const filtered = getFilteredPrograms();
   const totalPrograms = filtered.length;
@@ -178,108 +336,91 @@ function renderSummary() {
   const domains = [...new Set(filtered.map((program) => program.domain))];
   const years = [...new Set(filtered.map((program) => program.year))].sort((a, b) => a - b);
 
-  summaryCards.innerHTML = `
-    <div class="summary-card">
-      <span>符合條件的微學程</span>
-      <strong>${totalPrograms}</strong>
-    </div>
-    <div class="summary-card">
-      <span>包含課程數</span>
-      <strong>${totalCourses}</strong>
-    </div>
-    <div class="summary-card">
-      <span>領域數</span>
-      <strong>${domains.length}</strong>
-    </div>
-    <div class="summary-card">
-      <span>學年度數</span>
-      <strong>${years.length}</strong>
-    </div>
-  `;
+  if (summaryCards) {
+    summaryCards.innerHTML = `
+      <div class="summary-card">
+        <span>符合條件的微學程</span>
+        <strong>${totalPrograms}</strong>
+      </div>
+      <div class="summary-card">
+        <span>包含課程數</span>
+        <strong>${totalCourses}</strong>
+      </div>
+      <div class="summary-card">
+        <span>領域數</span>
+        <strong>${domains.length}</strong>
+      </div>
+      <div class="summary-card">
+        <span>學年度數</span>
+        <strong>${years.length}</strong>
+      </div>
+    `;
+  }
 
-  programList.innerHTML = filtered.length
-    ? filtered
-        .map((program) => {
-          return `
-            <div class="program-item">
-              <h3>${program.programName}</h3>
-              <div class="meta">${program.domain} • ${program.year}學年度 • ${program.semester} • ${program.type}</div>
-              <div class="tag-row">
-                <span class="tag">${program.semester}</span>
-                <span class="tag success">${program.year}學年度</span>
-                <span class="tag warn">${program.type}</span>
-              </div>
-              <ul>${program.courses.map((course) => `<li>${course}</li>`).join("")}</ul>
-            </div>`;
-        })
-        .join("")
-    : '<p>目前沒有符合條件的資料。</p>';
+  if (summaryOverview) {
+    renderOverviewTable();
+  }
 
-  fullList.innerHTML = microProgramsData.length
-    ? microProgramsData
-        .map((program) => {
-          return `
-            <div class="program-item">
-              <h3>${program.programName}</h3>
-              <div class="meta">${program.domain} • ${program.year}學年度 • ${program.semester} • ${program.type}</div>
-              <div class="tag-row">
-                <span class="tag">${program.semester}</span>
-                <span class="tag success">${program.year}學年度</span>
-                <span class="tag warn">${program.type}</span>
-              </div>
-            </div>`;
-        })
-        .join("")
-    : '<p>目前沒有資料。</p>';
+  if (programList) {
+    programList.innerHTML = filtered.length
+      ? filtered
+          .map((program) => {
+            return `
+              <div class="program-item">
+                <h3>${program.programName}</h3>
+                <div class="meta">${program.domain} • ${program.year}學年度 • ${program.semester} • ${program.type}</div>
+                <div class="tag-row">
+                  <span class="tag">${program.semester}</span>
+                  <span class="tag success">${program.year}學年度</span>
+                  <span class="tag warn">${program.type}</span>
+                </div>
+                <ul>${program.courses.map((course) => `<li>${course}</li>`).join("")}</ul>
+              </div>`;
+          })
+          .join("")
+      : '<p>目前沒有符合條件的資料。</p>';
+  }
+
+  if (fullList) {
+    renderFullListTree();
+  }
 }
 
 function renderAggregateView() {
-  const selectedDomain = aggregateDomain.value;
-  const grouped = microProgramsData
-    .filter((program) => program.domain === selectedDomain)
-    .reduce((acc, program) => {
-      if (!acc[program.year]) acc[program.year] = [];
-      acc[program.year].push(program);
-      return acc;
-    }, {});
-
-  const items = Object.entries(grouped)
-    .sort(([a], [b]) => Number(a) - Number(b))
-    .map(([year, programs]) => {
-      const courses = programs.flatMap((program) => program.courses);
-      return `
-        <div class="program-item">
-          <h3>${year}學年度</h3>
-          <div class="meta">共 ${programs.length} 個微學程，${courses.length} 門課程</div>
-          <ul>
-            ${programs
-              .map((program) => `<li><strong>${program.programName}</strong>：${program.courses.join("、")}</li>`)
-              .join("")}
-          </ul>
-        </div>`;
-    })
-    .join("");
-
-  aggregateResult.innerHTML = items || '<p>尚無資料可匯整。</p>';
+  if (!aggregateDomain || !aggregateResult) return;
+  renderFullListTree();
 }
 
-searchBtn.addEventListener("click", renderSingleSearch);
-courseInput.addEventListener("keydown", (event) => {
-  if (event.key === "Enter") renderSingleSearch();
-});
+if (searchBtn) {
+  searchBtn.addEventListener("click", renderSingleSearch);
+}
 
-batchBtn.addEventListener("click", renderBatchAnalysis);
+if (courseInput) {
+  courseInput.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") renderSingleSearch();
+  });
+}
 
-domainFilter.addEventListener("change", (event) => {
-  state.selectedDomain = event.target.value;
-  renderSummary();
-});
+if (batchBtn) {
+  batchBtn.addEventListener("click", renderBatchAnalysis);
+}
 
-yearFilter.addEventListener("change", (event) => {
-  state.selectedYear = event.target.value;
-  renderSummary();
-});
+if (domainFilter) {
+  domainFilter.addEventListener("change", (event) => {
+    state.selectedDomain = event.target.value;
+    renderSummary();
+  });
+}
 
-aggregateDomain.addEventListener("change", renderAggregateView);
+if (yearFilter) {
+  yearFilter.addEventListener("change", (event) => {
+    state.selectedYear = event.target.value;
+    renderSummary();
+  });
+}
+
+if (aggregateDomain) {
+  aggregateDomain.addEventListener("change", renderAggregateView);
+}
 
 loadData();

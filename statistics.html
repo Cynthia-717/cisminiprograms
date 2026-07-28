@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>領域與年度統計</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="detail-page">
+      <div class="detail-header">
+        <h1>3. 領域與年度統計</h1>
+        <a class="back-link" href="index.html">← 返回首頁</a>
+      </div>
+
+      <div class="filter-row">
+        <label>
+          領域
+          <select id="domainFilter">
+            <option value="all">全部</option>
+          </select>
+        </label>
+        <label>
+          學年度
+          <select id="yearFilter">
+            <option value="all">全部</option>
+          </select>
+        </label>
+      </div>
+
+      <div id="summaryCards" class="summary-grid"></div>
+      <div id="summaryOverview" class="overview-table-wrapper"></div>
+      <div id="programList" class="program-list"></div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="statistics.js"></script>
+  </body>
+</html>
