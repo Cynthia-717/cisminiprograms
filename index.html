@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>微學程課程查詢系統</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">微學程查詢系統</p>
+          <h1>快速查詢課程、確認學年度與學期，並整理領域統計</h1>
+          <p class="hero-copy">
+            支援單一課程搜尋、批次比對多門課程、四大領域分類，以及依年度彙整同領域微學程內容。
+          </p>
+        </div>
+        <div class="hero-badge">可直接開啟使用</div>
+      </header>
+
+      <main class="grid-layout">
+        <section class="panel">
+          <h2>1. 單一課程查詢</h2>
+          <div class="control-row">
+            <input id="courseInput" type="text" placeholder="例如：Python程式設計" />
+            <button id="searchBtn">搜尋</button>
+          </div>
+          <div id="singleResult" class="result-card"></div>
+        </section>
+
+        <section class="panel">
+          <h2>2. 批次確認多門課程</h2>
+          <p class="hint">可輸入多門課程，請以逗號、空白或換行分隔。</p>
+          <textarea id="batchInput" rows="8" placeholder="Python程式設計&#10;機器學習&#10;資料探勘"></textarea>
+          <button id="batchBtn">批次比對</button>
+          <div id="batchResult" class="result-card"></div>
+        </section>
+
+        <section class="panel full-span">
+          <h2>3. 領域與年度統計</h2>
+          <div class="filter-row">
+            <label>
+              領域
+              <select id="domainFilter">
+                <option value="all">全部</option>
+              </select>
+            </label>
+            <label>
+              學年度
+              <select id="yearFilter">
+                <option value="all">全部</option>
+              </select>
+            </label>
+          </div>
+          <div id="summaryCards" class="summary-grid"></div>
+          <div id="programList" class="program-list"></div>
+        </section>
+
+        <section class="panel full-span">
+          <h2>4. 完整清單</h2>
+          <p class="hint">可直接查看目前已匯入的所有微學程與學分學程清單。</p>
+          <div id="fullList" class="program-list"></div>
+        </section>
+
+        <section class="panel full-span">
+          <h2>5. 同領域年度匯整</h2>
+          <div class="filter-row">
+            <label>
+              選擇領域
+              <select id="aggregateDomain"></select>
+            </label>
+          </div>
+          <div id="aggregateResult" class="result-card"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

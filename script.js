@@ -1,0 +1,285 @@
+let microProgramsData = [];
+
+async function loadData() {
+  try {
+    const response = await fetch('./data.json');
+    const data = await response.json();
+    microProgramsData = data.map((item, index) => ({
+      id: `${item.domain}-${index}`,
+      domain: item.domain,
+      domainKey: item.domain.replace(/領域/g, '').trim(),
+      programName: item.programName,
+      year: item.year,
+      semester: item.semester,
+      type: item.type,
+      courses: item.courses.length ? item.courses : [item.programName]
+    }));
+    populateFilters();
+    renderSummary();
+    renderAggregateView();
+    renderSingleSearch();
+    renderBatchAnalysis();
+  } catch (error) {
+    console.error('Failed to load data.json', error);
+    microProgramsData = [];
+  }
+}
+
+const state = {
+  selectedDomain: "all",
+  selectedYear: "all"
+};
+
+const courseInput = document.getElementById("courseInput");
+const searchBtn = document.getElementById("searchBtn");
+const singleResult = document.getElementById("singleResult");
+const batchInput = document.getElementById("batchInput");
+const batchBtn = document.getElementById("batchBtn");
+const batchResult = document.getElementById("batchResult");
+const domainFilter = document.getElementById("domainFilter");
+const yearFilter = document.getElementById("yearFilter");
+const summaryCards = document.getElementById("summaryCards");
+const programList = document.getElementById("programList");
+const aggregateDomain = document.getElementById("aggregateDomain");
+const aggregateResult = document.getElementById("aggregateResult");
+const fullList = document.getElementById("fullList");
+
+function normalize(text) {
+  return text.replace(/\s+/g, "").toLowerCase();
+}
+
+function getMatchesForCourse(query) {
+  const normalizedQuery = normalize(query);
+  return microProgramsData.filter((program) =>
+    program.courses.some((course) => normalize(course).includes(normalizedQuery))
+  );
+}
+
+function renderSingleSearch() {
+  const query = courseInput.value.trim();
+  if (!query) {
+    singleResult.innerHTML = '<p>請輸入課程名稱。</p>';
+    return;
+  }
+
+  const matches = getMatchesForCourse(query);
+  if (!matches.length) {
+    singleResult.innerHTML = '<p>查無相關課程。</p>';
+    return;
+  }
+
+  const items = matches
+    .map((program) => {
+      const matchedCourses = program.courses.filter((course) => normalize(course).includes(normalize(query)));
+      return `
+        <div class="program-item">
+          <h3>${program.programName}</h3>
+          <div class="meta">${program.domain} • ${program.year}學年度 • ${program.semester} • ${program.type}</div>
+          <div class="tag-row">
+            <span class="tag">${program.semester}</span>
+            <span class="tag success">${program.year}學年度</span>
+          </div>
+          <ul>
+            ${matchedCourses.map((course) => `<li>${course}</li>`).join("")}
+          </ul>
+        </div>`;
+    })
+    .join("");
+
+  singleResult.innerHTML = items;
+}
+
+function parseCourseInput(rawText) {
+  return rawText
+    .split(/[\n,，\s]+/)
+    .map((item) => item.trim())
+    .filter(Boolean);
+}
+
+function renderBatchAnalysis() {
+  const parseList = parseCourseInput(batchInput.value);
+  if (!parseList.length) {
+    batchResult.innerHTML = '<p>請輸入至少一門課程。</p>';
+    return;
+  }
+
+  const allMatches = parseList.map((course) => ({ course, matches: getMatchesForCourse(course) }));
+  const commonPrograms = microProgramsData.filter((program) => {
+    return parseList.every((course) =>
+      program.courses.some((item) => normalize(item).includes(normalize(course)))
+    );
+  });
+
+  const summary = `
+    <div class="tag-row">
+      <span class="tag">查詢課程數：${parseList.length}</span>
+      <span class="tag success">共同出現在 ${commonPrograms.length} 個規劃書</span>
+    </div>
+  `;
+
+  const details = allMatches
+    .map(({ course, matches }) => {
+      const courseItems = matches.map((program) => `${program.programName}（${program.year}學年度／${program.semester}）`).join("； ");
+      return `<div class="program-item"><strong>${course}</strong><div class="meta">${courseItems || "未找到對應資料"}</div></div>`;
+    })
+    .join("");
+
+  const shared = commonPrograms.length
+    ? commonPrograms
+        .map((program) => {
+          const matchedNames = parseList.filter((course) =>
+            program.courses.some((item) => normalize(item).includes(normalize(course)))
+          );
+          return `<div class="program-item"><h3>${program.programName}</h3><div class="meta">${program.domain} • ${program.year}學年度 • ${program.semester} • ${program.type}</div><div class="tag-row"><span class="tag">${matchedNames.join("、")}</span></div></div>`;
+        })
+        .join("")
+    : '<p>沒有找到可同時包含這些課程的規劃書。</p>';
+
+  batchResult.innerHTML = `${summary}${details}<h3 style="margin-bottom:6px;">共同出現於同一規劃書</h3>${shared}`;
+}
+
+function getUniqueDomains() {
+  return [...new Set(microProgramsData.map((program) => program.domain))];
+}
+
+function getUniqueYears() {
+  return [...new Set(microProgramsData.map((program) => program.year))].sort((a, b) => a - b);
+}
+
+function populateFilters() {
+  const domainOptions = ['all', ...getUniqueDomains()];
+  domainFilter.innerHTML = domainOptions
+    .map((domain) => `<option value="${domain}">${domain === "all" ? "全部" : domain}</option>`)
+    .join("");
+
+  const yearOptions = ['all', ...getUniqueYears()];
+  yearFilter.innerHTML = yearOptions
+    .map((year) => `<option value="${year}">${year === "all" ? "全部" : `${year}學年度`}</option>`)
+    .join("");
+
+  aggregateDomain.innerHTML = domainOptions
+    .filter((domain) => domain !== "all")
+    .map((domain) => `<option value="${domain}">${domain}</option>`)
+    .join("");
+}
+
+function getFilteredPrograms() {
+  return microProgramsData.filter((program) => {
+    const domainMatch = state.selectedDomain === "all" || program.domain === state.selectedDomain;
+    const yearMatch = state.selectedYear === "all" || program.year === Number(state.selectedYear);
+    return domainMatch && yearMatch;
+  });
+}
+
+function renderSummary() {
+  const filtered = getFilteredPrograms();
+  const totalPrograms = filtered.length;
+  const totalCourses = filtered.reduce((sum, program) => sum + program.courses.length, 0);
+  const domains = [...new Set(filtered.map((program) => program.domain))];
+  const years = [...new Set(filtered.map((program) => program.year))].sort((a, b) => a - b);
+
+  summaryCards.innerHTML = `
+    <div class="summary-card">
+      <span>符合條件的微學程</span>
+      <strong>${totalPrograms}</strong>
+    </div>
+    <div class="summary-card">
+      <span>包含課程數</span>
+      <strong>${totalCourses}</strong>
+    </div>
+    <div class="summary-card">
+      <span>領域數</span>
+      <strong>${domains.length}</strong>
+    </div>
+    <div class="summary-card">
+      <span>學年度數</span>
+      <strong>${years.length}</strong>
+    </div>
+  `;
+
+  programList.innerHTML = filtered.length
+    ? filtered
+        .map((program) => {
+          return `
+            <div class="program-item">
+              <h3>${program.programName}</h3>
+              <div class="meta">${program.domain} • ${program.year}學年度 • ${program.semester} • ${program.type}</div>
+              <div class="tag-row">
+                <span class="tag">${program.semester}</span>
+                <span class="tag success">${program.year}學年度</span>
+                <span class="tag warn">${program.type}</span>
+              </div>
+              <ul>${program.courses.map((course) => `<li>${course}</li>`).join("")}</ul>
+            </div>`;
+        })
+        .join("")
+    : '<p>目前沒有符合條件的資料。</p>';
+
+  fullList.innerHTML = microProgramsData.length
+    ? microProgramsData
+        .map((program) => {
+          return `
+            <div class="program-item">
+              <h3>${program.programName}</h3>
+              <div class="meta">${program.domain} • ${program.year}學年度 • ${program.semester} • ${program.type}</div>
+              <div class="tag-row">
+                <span class="tag">${program.semester}</span>
+                <span class="tag success">${program.year}學年度</span>
+                <span class="tag warn">${program.type}</span>
+              </div>
+            </div>`;
+        })
+        .join("")
+    : '<p>目前沒有資料。</p>';
+}
+
+function renderAggregateView() {
+  const selectedDomain = aggregateDomain.value;
+  const grouped = microProgramsData
+    .filter((program) => program.domain === selectedDomain)
+    .reduce((acc, program) => {
+      if (!acc[program.year]) acc[program.year] = [];
+      acc[program.year].push(program);
+      return acc;
+    }, {});
+
+  const items = Object.entries(grouped)
+    .sort(([a], [b]) => Number(a) - Number(b))
+    .map(([year, programs]) => {
+      const courses = programs.flatMap((program) => program.courses);
+      return `
+        <div class="program-item">
+          <h3>${year}學年度</h3>
+          <div class="meta">共 ${programs.length} 個微學程，${courses.length} 門課程</div>
+          <ul>
+            ${programs
+              .map((program) => `<li><strong>${program.programName}</strong>：${program.courses.join("、")}</li>`)
+              .join("")}
+          </ul>
+        </div>`;
+    })
+    .join("");
+
+  aggregateResult.innerHTML = items || '<p>尚無資料可匯整。</p>';
+}
+
+searchBtn.addEventListener("click", renderSingleSearch);
+courseInput.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") renderSingleSearch();
+});
+
+batchBtn.addEventListener("click", renderBatchAnalysis);
+
+domainFilter.addEventListener("change", (event) => {
+  state.selectedDomain = event.target.value;
+  renderSummary();
+});
+
+yearFilter.addEventListener("change", (event) => {
+  state.selectedYear = event.target.value;
+  renderSummary();
+});
+
+aggregateDomain.addEventListener("change", renderAggregateView);
+
+loadData();
