@@ -1,5 +1,30 @@
 let microProgramsData = [];
 
+function normalizeCourses(courses) {
+  if (!Array.isArray(courses)) return [];
+
+  return courses
+    .map((course) => {
+      if (typeof course === 'string') return { category: '未分類', name: course };
+      if (!course || typeof course !== 'object') return null;
+      const name = course.name || course.courseName || course.title;
+      return name ? { category: course.category || course.type || '未分類', name } : null;
+    })
+    .filter(Boolean);
+}
+
+function courseName(course) {
+  if (typeof course === 'string') return course;
+  return [course.prefix, course.name].filter(Boolean).join(' ');
+}
+
+function displayCourseName(course) {
+  const name = courseName(course);
+  return name.startsWith('數位自學 ')
+    ? `<strong>數位自學</strong> - ${name.slice('數位自學 '.length)}`
+    : name;
+}
+
 function cleanProgramName(rawName) {
   if (!rawName) return '未命名規劃書';
 
@@ -33,7 +58,7 @@ async function loadData() {
       year: item.year,
       semester: item.semester,
       type: item.type,
-      courses: Array.isArray(item.courses) && item.courses.length ? item.courses : [cleanProgramName(item.programName)]
+      courses: normalizeCourses(item.courses)
     }));
 
     populateFilters();
@@ -74,7 +99,7 @@ function normalize(text) {
 function getMatchesForCourse(query) {
   const normalizedQuery = normalize(query);
   return microProgramsData.filter((program) =>
-    program.courses.some((course) => normalize(course).includes(normalizedQuery))
+    program.courses.some((course) => normalize(courseName(course)).includes(normalizedQuery))
   );
 }
 
@@ -93,7 +118,7 @@ function renderSingleSearch() {
 
   const items = matches
     .map((program) => {
-      const matchedCourses = program.courses.filter((course) => normalize(course).includes(normalize(query)));
+      const matchedCourses = program.courses.filter((course) => normalize(courseName(course)).includes(normalize(query)));
       return `
         <div class="program-item">
           <h3>${program.programName}</h3>
@@ -103,7 +128,7 @@ function renderSingleSearch() {
             <span class="tag success">${program.year}學年度</span>
           </div>
           <ul>
-            ${matchedCourses.map((course) => `<li>${course}</li>`).join("")}
+            ${matchedCourses.map((course) => `<li>${course.category}：${displayCourseName(course)}</li>`).join("")}
           </ul>
         </div>`;
     })
@@ -129,7 +154,7 @@ function renderBatchAnalysis() {
   const allMatches = parseList.map((course) => ({ course, matches: getMatchesForCourse(course) }));
   const commonPrograms = microProgramsData.filter((program) => {
     return parseList.every((course) =>
-      program.courses.some((item) => normalize(item).includes(normalize(course)))
+      program.courses.some((item) => normalize(courseName(item)).includes(normalize(course)))
     );
   });
 
@@ -151,7 +176,7 @@ function renderBatchAnalysis() {
     ? commonPrograms
         .map((program) => {
           const matchedNames = parseList.filter((course) =>
-            program.courses.some((item) => normalize(item).includes(normalize(course)))
+            program.courses.some((item) => normalize(courseName(item)).includes(normalize(course)))
           );
           return `<div class="program-item"><h3>${program.programName}</h3><div class="meta">${program.domain} • ${program.year}學年度 • ${program.semester} • ${program.type}</div><div class="tag-row"><span class="tag">${matchedNames.join("、")}</span></div></div>`;
         })
@@ -285,15 +310,33 @@ function renderFullListTree() {
         .map(([type, typePrograms], typeIndex) => {
           const typeId = `type-${yearIndex}-${typeIndex}`;
           const programItems = typePrograms
-            .map((program) => `
-              <div class="tree-node leaf">
-                <div class="tree-label">${program.programName}</div>
-                <div class="tree-meta">${program.semester} • ${program.type}</div>
-                <ul class="tree-course-list">
-                  ${program.courses.map((course) => `<li>${course}</li>`).join('')}
-                </ul>
-              </div>
-            `)
+            .map((program, programIndex) => {
+              const programId = `program-${yearIndex}-${typeIndex}-${programIndex}`;
+              const coursesByCategory = program.courses.reduce((acc, course) => {
+                if (!acc[course.category]) acc[course.category] = [];
+                acc[course.category].push(course);
+                return acc;
+              }, {});
+              const categoryItems = Object.entries(coursesByCategory)
+                .map(([category, courses], categoryIndex) => {
+                  const categoryId = `${programId}-category-${categoryIndex}`;
+                  return `
+                    <div class="tree-node branch course-category">
+                      <button class="tree-toggle" data-target="${categoryId}">${category}課程（${courses.length}）</button>
+                      <div class="tree-children" id="${categoryId}" style="display:none;">
+                        <ul class="tree-course-list">${courses.map((course) => `<li>${displayCourseName(course)}</li>`).join('')}</ul>
+                      </div>
+                    </div>`;
+                })
+                .join('');
+              const courseContent = categoryItems || '<p class="tree-empty">此規劃書尚未匯入課程資料。</p>';
+              return `
+                <div class="tree-node branch program-node">
+                  <button class="tree-toggle" data-target="${programId}">${program.programName}</button>
+                  <div class="tree-meta">${program.semester} • ${program.type}</div>
+                  <div class="tree-children" id="${programId}" style="display:none;">${courseContent}</div>
+                </div>`;
+            })
             .join('');
 
           return `
@@ -374,7 +417,7 @@ function renderSummary() {
                   <span class="tag success">${program.year}學年度</span>
                   <span class="tag warn">${program.type}</span>
                 </div>
-                <ul>${program.courses.map((course) => `<li>${course}</li>`).join("")}</ul>
+                <ul>${program.courses.map((course) => `<li>${course.category}：${displayCourseName(course)}</li>`).join("")}</ul>
               </div>`;
           })
           .join("")

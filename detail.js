@@ -36,13 +36,22 @@ function renderDetailPage() {
   const items = data
     .map((item) => {
       const programName = cleanProgramName(item.programName);
-      const courses = Array.isArray(item.courses) && item.courses.length ? item.courses : [programName];
+      const courses = Array.isArray(item.courses) ? item.courses : [];
       return `
         <div class="program-item">
           <h3>${programName}</h3>
           <div class="meta">${item.domain} • ${item.year}學年度 • ${item.semester} • ${item.type}</div>
           <ul>
-            ${courses.map((course) => `<li>${course}</li>`).join('')}
+            ${courses.length ? courses.map((course) => {
+              const name = typeof course === 'string'
+                ? course
+                : [course.prefix, course.name || course.courseName || course.title].filter(Boolean).join(' ');
+              const category = typeof course === 'string' ? '未分類' : (course.category || course.type || '未分類');
+              const displayName = name.startsWith('數位自學 ')
+                ? `<strong>數位自學</strong> - ${name.slice('數位自學 '.length)}`
+                : name;
+              return `<li>${category}：${displayName}</li>`;
+            }).join('') : '<li>此規劃書尚未匯入課程資料。</li>'}
           </ul>
         </div>
       `;

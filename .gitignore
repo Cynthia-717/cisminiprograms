@@ -1,0 +1,6 @@
+# Source PDFs are used locally to build the public course index.
+pdfs/
+
+# macOS metadata files
+.DS_Store
+._*

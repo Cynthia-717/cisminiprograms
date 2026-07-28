@@ -241,6 +241,21 @@ textarea {
   background: #f8fbff;
 }
 
+.program-node {
+  margin: 10px 0 0 18px;
+  background: #ffffff;
+}
+
+.course-category {
+  margin: 10px 0 0 18px;
+  background: #f3f9ff;
+}
+
+.tree-empty {
+  margin: 10px 0 0 18px;
+  color: var(--muted);
+}
+
 .tree-toggle {
   width: 100%;
   border: none;
