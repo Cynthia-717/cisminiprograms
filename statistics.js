@@ -28,6 +28,47 @@ function normalize(text) {
   return text.replace(/\s+/g, '').toLowerCase();
 }
 
+function courseName(course) {
+  if (typeof course === 'string') return course;
+  return [course.prefix, course.name].filter(Boolean).join(' ');
+}
+
+function displayCourseName(course) {
+  const name = courseName(course);
+  const digitalCourse = name.match(/^數位自學\s*(.*)$/);
+  return digitalCourse
+    ? `<strong>數位自學 - ${digitalCourse[1]}</strong>`
+    : name;
+}
+
+function extractCourseCredits(course) {
+  if (course && course.credit !== undefined && course.credit !== null) {
+    const credit = Number(course.credit);
+    return Number.isFinite(credit) ? credit : null;
+  }
+
+  const raw = courseName(course);
+  const match = raw.match(/\((\d+(?:\.\d+)?)學分\)|\[(\d+(?:\.\d+)?)學分\]|\b(\d+(?:\.\d+)?)學分\b/);
+  if (!match) return null;
+  const credit = Number(match[1] || match[2] || match[3]);
+  return Number.isFinite(credit) ? credit : null;
+}
+
+function formatCourseItem(course) {
+  const displayName = displayCourseName(course);
+  const credit = extractCourseCredits(course);
+  return credit === null ? displayName : `${displayName} <span class="course-credit">(${credit})</span>`;
+}
+
+function courseDisplayName(course) {
+  if (!course) return '未命名課程';
+  if (typeof course === 'string') return course;
+  if (typeof course === 'object') {
+    return course.name || course.courseName || course.title || '未命名課程';
+  }
+  return String(course);
+}
+
 function getUniqueDomains() {
   return [...new Set(microProgramsData.map((program) => program.domain))];
 }
@@ -136,18 +177,59 @@ function renderProgramList() {
 
   programList.innerHTML = filtered.length
     ? filtered
-        .map((program) => `
-          <div class="program-item">
-            <h3>${program.programName}</h3>
-            <div class="meta">${program.domain} • ${program.year}學年度 • ${program.semester} • ${program.type}</div>
-            <div class="tag-row">
-              <span class="tag">${program.semester}</span>
-              <span class="tag success">${program.year}學年度</span>
-              <span class="tag warn">${program.type}</span>
+        .map((program) => {
+          const categoryOrder = ['基礎', '核心', '應用'];
+          const categoryMap = categoryOrder.reduce((acc, category) => {
+            acc[category] = (program.courses || []).filter((course) => course.category === category);
+            return acc;
+          }, {});
+
+          const cards = categoryOrder.map((category) => {
+            const categoryCourses = categoryMap[category] || [];
+            const totalCredits = categoryCourses.reduce((sum, course) => {
+              const match = String(course.name || '').match(/\((\d+)學分\)|\[(\d+)學分\]|\b(\d+)學分\b/);
+              if (match) {
+                const credit = Number(match[1] || match[2] || match[3]);
+                return sum + (Number.isFinite(credit) ? credit : 0);
+              }
+              return sum;
+            }, 0);
+
+            const requirementText = totalCredits > 0 ? `${totalCredits} 學分` : '未明確標註（目前資料庫未含學分數）';
+            const courseList = categoryCourses.length
+              ? categoryCourses.map((course) => `<li>${formatCourseItem(course)}</li>`).join('')
+              : '<li>此類別目前沒有可顯示課程。</li>';
+
+            return `
+              <div class="program-planning-card">
+                <h4>${category}</h4>
+                <div class="planning-meta">學分需求：${requirementText}</div>
+                <ul>${courseList}</ul>
+              </div>
+            `;
+          }).join('');
+
+          const requirementInfo = program.requirements || {};
+          const totalRequirementText = Number(requirementInfo.totalCredits) > 0
+            ? `<div class="planning-meta">完成此微學程需修滿 ${requirementInfo.totalCredits} 學分</div>`
+            : '<div class="planning-meta">完成此微學程總學分資訊目前尚未明確標註。</div>';
+
+          return `
+            <div class="program-item">
+              <div class="program-planning-header">
+                <h3>${program.programName}</h3>
+                <div class="meta">${program.domain} • ${program.year}學年度 • ${program.semester} • ${program.type}</div>
+                ${totalRequirementText}
+              </div>
+              <div class="tag-row">
+                <span class="tag">${program.semester}</span>
+                <span class="tag success">${program.year}學年度</span>
+                <span class="tag warn">${program.type}</span>
+              </div>
+              <div class="program-planning-grid">${cards}</div>
             </div>
-            <ul>${program.courses.map((course) => `<li>${course}</li>`).join('')}</ul>
-          </div>
-        `)
+          `;
+        })
         .join('')
     : '<p>目前沒有符合條件的資料。</p>';
 }
@@ -162,7 +244,12 @@ function renderStatisticsPage() {
     year: item.year,
     semester: item.semester,
     type: item.type,
-    courses: Array.isArray(item.courses) && item.courses.length ? item.courses : [cleanProgramName(item.programName)]
+    courses: Array.isArray(item.courses) ? item.courses : [],
+    requirements: item.requirements || {
+      totalCredits: null,
+      minCoursesPerCategory: { 基礎: 1, 核心: 1, 應用: 1 },
+      perCategoryCredits: { 基礎: null, 核心: null, 應用: null }
+    }
   }));
 
   populateFilters();
