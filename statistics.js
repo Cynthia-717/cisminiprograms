@@ -28,6 +28,12 @@ function normalize(text) {
   return text.replace(/\s+/g, '').toLowerCase();
 }
 
+function isCourseCodeLike(value) {
+  if (!value) return false;
+  const cleaned = String(value).replace(/[（ ）()\-_/\\\s]+/g, '').replace(/[A-Za-z]/g, '');
+  return cleaned.length > 0 && /^[0-9]+$/.test(cleaned);
+}
+
 function courseName(course) {
   if (typeof course === 'string') return course;
   return [course.prefix, course.name].filter(Boolean).join(' ');
@@ -35,10 +41,26 @@ function courseName(course) {
 
 function displayCourseName(course) {
   const name = courseName(course);
-  const digitalCourse = name.match(/^數位自學\s*(.*)$/);
-  return digitalCourse
-    ? `<strong>數位自學 - ${digitalCourse[1]}</strong>`
-    : name;
+  if (!name) return '未命名課程';
+  if (isCourseCodeLike(name)) {
+    const fallback = course && course.category ? `${course.category}課程` : '課程';
+    return fallback;
+  }
+
+  const digitalCourse = name.match(/^(?:跨領域|通識)?數位自學(?:[-：: ]*(.*))?$/);
+  if (digitalCourse) {
+    const suffix = (digitalCourse[1] || '').trim();
+    if (!suffix) return '數位自學';
+    return `數位自學-${suffix.replace(/^[-：: ]+/, '')}`;
+  }
+
+  const simpleDigital = name.match(/數位自學/);
+  if (simpleDigital && name !== '數位自學') {
+    const cleaned = name.replace(/^(?:跨領域|通識)?數位自學[-：: ]*/, '');
+    return cleaned ? `數位自學-${cleaned}` : '數位自學';
+  }
+
+  return name;
 }
 
 function extractCourseCredits(course) {
@@ -187,15 +209,16 @@ function renderProgramList() {
           const cards = categoryOrder.map((category) => {
             const categoryCourses = categoryMap[category] || [];
             const totalCredits = categoryCourses.reduce((sum, course) => {
-              const match = String(course.name || '').match(/\((\d+)學分\)|\[(\d+)學分\]|\b(\d+)學分\b/);
-              if (match) {
-                const credit = Number(match[1] || match[2] || match[3]);
-                return sum + (Number.isFinite(credit) ? credit : 0);
-              }
-              return sum;
+              const credit = extractCourseCredits(course);
+              return sum + (Number.isFinite(credit) ? credit : 0);
             }, 0);
 
-            const requirementText = totalCredits > 0 ? `${totalCredits} 學分` : '未明確標註（目前資料庫未含學分數）';
+            const requirementValue = Number(program.requirements?.perCategoryCredits?.[category]);
+            const requirementText = Number.isFinite(requirementValue) && requirementValue > 0
+              ? `${requirementValue} 學分`
+              : totalCredits > 0
+                ? `${totalCredits} 學分`
+                : '未明確標註（目前資料庫未含學分數）';
             const courseList = categoryCourses.length
               ? categoryCourses.map((course) => `<li>${formatCourseItem(course)}</li>`).join('')
               : '<li>此類別目前沒有可顯示課程。</li>';
