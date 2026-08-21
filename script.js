@@ -24,12 +24,35 @@ function courseName(course) {
   return [course.prefix, course.name].filter(Boolean).join(' ');
 }
 
+function isCourseCodeLike(value) {
+  if (!value) return false;
+  const cleaned = String(value)
+    .replace(/[（ ）()\-_/\\\s]+/g, '')
+    .replace(/[A-Za-z]/g, '');
+  return cleaned.length > 0 && /^[0-9]+$/.test(cleaned);
+}
+
 function displayCourseName(course) {
   const name = courseName(course);
-  const digitalCourse = name.match(/^數位自學\s*(.*)$/);
-  return digitalCourse
-    ? `<strong>數位自學 - ${digitalCourse[1]}</strong>`
-    : name;
+  if (isCourseCodeLike(name)) {
+    const fallback = course && course.category ? `${course.category}課程` : '課程';
+    return fallback;
+  }
+
+  const digitalCourse = name.match(/^(?:跨領域|通識)?數位自學(?:[-：: ]*(.*))?$/);
+  if (digitalCourse) {
+    const suffix = (digitalCourse[1] || '').trim();
+    if (!suffix) return '數位自學';
+    return `數位自學-${suffix.replace(/^[-：: ]+/, '')}`;
+  }
+
+  const simpleDigital = name.match(/數位自學/);
+  if (simpleDigital && name !== '數位自學') {
+    const cleaned = name.replace(/^(?:跨領域|通識)?數位自學[-：: ]*/, '');
+    return cleaned ? `數位自學-${cleaned}` : '數位自學';
+  }
+
+  return name;
 }
 
 function extractCourseCredits(course) {
@@ -97,10 +120,12 @@ async function loadData() {
     }));
 
     populateFilters();
+    populateProgramLookup();
     renderSummary();
     renderAggregateView();
     renderSingleSearch();
     renderBatchAnalysis();
+    renderProgramLookupResult();
   } catch (error) {
     console.error('Failed to load data', error);
     microProgramsData = [];

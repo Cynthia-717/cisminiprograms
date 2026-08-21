@@ -15,15 +15,15 @@
           <p class="hero-copy">
             支援單一課程搜尋、批次比對多門課程、四大領域分類，以及依年度彙整同領域微學程內容。
           </p>
+          <a class="page-link" href="statistics.html">前往領域與年度統計頁</a>
         </div>
-        <div class="hero-badge">可直接開啟使用</div>
       </header>
 
       <main class="grid-layout">
         <section class="panel">
           <h2>1. 單一課程查詢</h2>
           <div class="control-row">
-            <input id="courseInput" type="text" placeholder="例如：Python程式設計" />
+            <input id="courseInput" type="text" />
             <button id="searchBtn">搜尋</button>
           </div>
           <div id="singleResult" class="result-card"></div>
@@ -32,19 +32,13 @@
         <section class="panel">
           <h2>2. 批次確認多門課程</h2>
           <p class="hint">可輸入多門課程，請以逗號、空白或換行分隔。</p>
-          <textarea id="batchInput" rows="8" placeholder="Python程式設計&#10;機器學習&#10;資料探勘"></textarea>
+          <textarea id="batchInput" rows="8"></textarea>
           <button id="batchBtn">批次比對</button>
           <div id="batchResult" class="result-card"></div>
         </section>
 
         <section class="panel full-span">
-          <h2>3. 領域與年度統計</h2>
-          <p class="hint">此區塊已移至獨立頁面，內容較長時可單獨檢視，方便你逐筆整理與調整資料。</p>
-          <a class="page-link" href="statistics.html">前往領域與年度統計頁</a>
-        </section>
-
-        <section class="panel full-span">
-          <h2>4. 課程年度查詢</h2>
+          <h2>3. 課程年度查詢</h2>
           <p class="hint">請先選擇領域，再依學年度、學程類型、規劃書與課程屬性（基礎／核心／應用）逐層展開查看課程。</p>
           <div class="filter-row">
             <label>
@@ -53,6 +47,33 @@
             </label>
           </div>
           <div id="aggregateResult" class="result-card"></div>
+        </section>
+
+        <section class="panel full-span">
+          <h2>4. 規劃書查詢與學分需求</h2>
+          <p class="hint">請選擇學年度、學期與規劃書名稱，直接查看各類別課程與修業學分需求。</p>
+          <div class="filter-row">
+            <label>
+              學年度
+              <select id="programYearSelect">
+                <option value="all">全部</option>
+              </select>
+            </label>
+            <label>
+              學期
+              <select id="programSemesterSelect">
+                <option value="all">全部</option>
+                <option value="第一學期">第一學期</option>
+                <option value="第二學期">第二學期</option>
+              </select>
+            </label>
+            <label style="flex: 1; min-width: 220px;">
+              規劃書名稱
+              <input id="programLookupInput" type="text" />
+            </label>
+            <button id="programLookupBtn">查詢</button>
+          </div>
+          <div id="programLookupResult" class="result-card"></div>
         </section>
       </main>
     </div>
