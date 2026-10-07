@@ -13,9 +13,11 @@ import re
 from pathlib import Path
 
 import pdfplumber
+from openpyxl import load_workbook
+import xlrd
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-PDF_ROOT = REPO_ROOT / "pdfs"
+PDF_ROOT = REPO_ROOT / "excels"
 JSON_OUTPUT = REPO_ROOT / "data.json"
 JS_OUTPUT = REPO_ROOT / "data.js"
 CATEGORIES = ("基礎", "核心", "應用")
@@ -44,13 +46,47 @@ def is_course_title_candidate(cell: str):
 
 
 def infer_domain(path: Path) -> str:
+    text = str(path).replace("/", " ")
+    if "自主學習" in text:
+        return "未分類"
+
     mapping = {
-        "人工智慧": "人工智慧領域", "人工智慧領域": "人工智慧領域",
-        "創新創業": "創新創業領域", "創新創業領域": "創新創業領域",
-        "新媒體": "新媒體領域", "新媒體領域": "新媒體領域",
-        "永續發展": "永續發展領域", "永續發展領域": "永續發展領域",
+        "人工智慧": "人工智慧領域",
+        "大數據": "人工智慧領域",
+        "健康照護物聯網": "人工智慧領域",
+        "健康物聯網": "人工智慧領域",
+        "程式設計": "人工智慧領域",
+        "智慧跨域": "人工智慧領域",
+        "智慧生醫": "人工智慧領域",
+        "MSD": "人工智慧領域",
+        "創業實踐": "創新創業領域",
+        "設計思考": "創新創業領域",
+        "創新醫療設計": "創新創業領域",
+        "智慧新藥": "創新創業領域",
+        "精準健康產業": "創新創業領域",
+        "精準醫療與用藥": "創新創業領域",
+        "解決問題促進健康": "創新創業領域",
+        "輔助科技": "創新創業領域",
+        "永續健康產業與管理": "永續發展領域",
+        "永續科研": "永續發展領域",
+        "氣候變遷": "永續發展領域",
+        "綠色飲食": "永續發展領域",
+        "智齡設計": "永續發展領域",
+        "社會處方箋": "永續發展領域",
+        "健康產業": "永續發展領域",
+        "沉浸科技": "新媒體領域",
+        "敘事創作": "新媒體領域",
+        "國際影響力": "新媒體領域",
+        "數位學習科技": "新媒體領域",
+        "資訊傳播": "新媒體領域",
+        "資訊安全": "新媒體領域",
+        "大健康元宇宙": "新媒體領域",
+        "元宇宙": "新媒體領域",
     }
-    return next((mapping[part] for part in path.parts if part in mapping), "未分類")
+    for keyword, domain in mapping.items():
+        if keyword in text:
+            return domain
+    return "未分類"
 
 
 def infer_type(path: Path) -> str:
@@ -69,7 +105,11 @@ def infer_semester(path: Path) -> str:
 
 def infer_program_name(path: Path) -> str:
     name = path.stem.replace("「", "").replace("」", "")
-    name = re.sub(r"[-_－].*$", "", name)
+    name = re.sub(r"\s*(?:[-_－—]\s*)?(?:\d{3,4}[12]|\d{3,4}[12].*?)\s*$", "", name)
+    name = re.sub(r"(?:規劃書|微學程規劃書|學分學程規劃書|教務會議.*)$", "", name)
+    name = name.strip(" -_－—")
+    if not name:
+        name = path.stem
     return name.strip()
 
 
@@ -114,6 +154,127 @@ def normalize_category_label(cell: str):
         if category in text:
             return category
     return None
+
+
+def get_excel_sheet(workbook):
+    for sheet in workbook.worksheets:
+        if sheet.title.strip() == "課程規劃表":
+            return sheet
+    if len(workbook.worksheets) > 1:
+        return workbook.worksheets[1]
+    if workbook.worksheets:
+        return workbook.worksheets[0]
+    return None
+
+
+def extract_courses_from_excel(path: Path):
+    """Read the second sheet in an Excel workbook and extract course rows."""
+    try:
+        if path.suffix.lower() in {".xlsx", ".xlsm"}:
+            workbook = load_workbook(path, read_only=True, data_only=True)
+            sheet = get_excel_sheet(workbook)
+            rows = list(sheet.iter_rows(values_only=True)) if sheet else []
+        elif path.suffix.lower() == ".xls":
+            workbook = xlrd.open_workbook(str(path))
+            sheet = workbook.sheet_by_name("課程規劃表") if "課程規劃表" in workbook.sheet_names() else workbook.sheets()[1] if len(workbook.sheets()) > 1 else workbook.sheet_by_index(0)
+            rows = [[sheet.cell_value(r, c) for c in range(sheet.ncols)] for r in range(sheet.nrows)]
+        else:
+            return []
+    except Exception as error:
+        print(f"Could not read Excel workbook {path}: {error}")
+        return []
+
+    if not rows:
+        return []
+
+    header_index = None
+    for index, row in enumerate(rows):
+        values = ["" if value is None else str(value).strip() for value in row]
+        normalized = "|".join(values)
+        if any(keyword in normalized for keyword in ["科目名稱", "課程名稱", "課程名", "課號", "學分", "類別", "領域名稱", "學程課程"]):
+            header_index = index
+            break
+
+    if header_index is None:
+        return []
+
+    courses = []
+    seen = set()
+    current_category = None
+
+    for row in rows[header_index + 1:]:
+        cells = ["" if value is None else str(value).strip() for value in row]
+        if not any(cells):
+            continue
+
+        category = None
+        for cell in cells:
+            normalized = normalize_category_label(cell)
+            if normalized:
+                category = normalized
+                current_category = normalized
+                break
+        if category is None:
+            category = current_category
+
+        if category not in CATEGORIES:
+            continue
+
+        course_name = None
+        course_name_index = None
+        numeric_candidates = []
+        for index, cell in enumerate(cells):
+            if not cell:
+                continue
+            if re.fullmatch(r"\d+(?:\.\d+)?", cell):
+                numeric_candidates.append((index, float(cell)))
+                continue
+            if any(keyword in cell for keyword in ["類別", "科目名稱", "課程名稱", "課程名", "課號", "學分", "備註", "開課單位", "開課學期", "屬性", "性質", "選別", "領域名稱", "領域應修學分數", "領域備註", "學程課程"]):
+                continue
+            if normalize_category_label(cell) is not None:
+                continue
+            if re.fullmatch(r"[A-Z]{1,3}\d{5,8}|\d{8}", cell):
+                continue
+            course_name = cell
+            course_name_index = index
+            break
+
+        if course_name is None:
+            for cell in cells:
+                candidate = clean_course_name(cell)
+                if candidate and candidate not in {"", "課程規劃表"}:
+                    course_name = candidate
+                    break
+
+        if not course_name:
+            continue
+
+        credit_value = None
+        for index, value in reversed(numeric_candidates):
+            if course_name_index is not None and index <= course_name_index:
+                continue
+            if value <= 10:
+                credit_value = int(value) if value.is_integer() else value
+                break
+        if credit_value is None and numeric_candidates:
+            _, value = numeric_candidates[-1]
+            if value <= 10:
+                credit_value = int(value) if value.is_integer() else value
+
+        course_name = normalize_digital_course_name(clean_course_name(course_name), cells)
+        if not course_name:
+            continue
+
+        key = (category, course_name)
+        if key in seen:
+            continue
+        seen.add(key)
+        record = {"category": category, "name": course_name}
+        if credit_value is not None:
+            record["credit"] = credit_value
+        courses.append(record)
+
+    return courses
 
 
 def extract_courses(path: Path):
@@ -305,19 +466,31 @@ def main():
     if not PDF_ROOT.is_dir():
         raise SystemExit(f"PDF folder not found: {PDF_ROOT}")
 
-    paths = [path for path in sorted(PDF_ROOT.rglob("*.pdf")) if not path.name.startswith("._")]
+    excel_paths = [path for path in sorted(PDF_ROOT.rglob("*.*")) if path.suffix.lower() in {".xlsx", ".xlsm", ".xls"} and not path.name.startswith("._")]
+    paths = sorted(excel_paths, key=lambda p: str(p))
     records = []
     for path in paths[args.start:args.end]:
-        records.append({
+        domain = infer_domain(path)
+        if domain == "未分類" and "自主學習" in str(path):
+            continue
+        courses = extract_courses_from_excel(path)
+        requirements = {
+            "totalCredits": None,
+            "minCoursesPerCategory": {"基礎": 1, "核心": 1, "應用": 1},
+            "perCategoryCredits": {"基礎": None, "核心": None, "應用": None},
+            "note": "由 Excel 課程規劃表匯入",
+        }
+        record = {
             "programName": infer_program_name(path),
-            "domain": infer_domain(path),
+            "domain": domain,
             "year": infer_year(path),
             "semester": infer_semester(path),
             "type": infer_type(path),
             "sourcePath": str(path.relative_to(REPO_ROOT)),
-            "courses": extract_courses(path),
-            "requirements": extract_requirement_text(path),
-        })
+            "courses": courses,
+            "requirements": requirements,
+        }
+        records.append(record)
 
     output = args.output or JSON_OUTPUT
     output.write_text(json.dumps(records, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -327,7 +500,7 @@ def main():
             encoding="utf-8",
         )
     total_courses = sum(len(record["courses"]) for record in records)
-    print(f"Exported {len(records)} PDFs and {total_courses} extracted course rows to {output}.")
+    print(f"Exported {len(records)} source files and {total_courses} extracted course rows to {output}.")
 
 
 if __name__ == "__main__":
