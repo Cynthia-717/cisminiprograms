@@ -28,6 +28,16 @@ function normalize(text) {
   return text.replace(/\s+/g, '').toLowerCase();
 }
 
+function escapeHtml(value) {
+  return String(value).replace(/[&<>"']/g, (character) => ({
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#39;'
+  })[character]);
+}
+
 function isCourseCodeLike(value) {
   if (!value) return false;
   const cleaned = String(value).replace(/[（ ）()\-_/\\\s]+/g, '').replace(/[A-Za-z]/g, '');
@@ -213,12 +223,19 @@ function renderProgramList() {
               return sum + (Number.isFinite(credit) ? credit : 0);
             }, 0);
 
-            const requirementValue = Number(program.requirements?.perCategoryCredits?.[category]);
-            const requirementText = Number.isFinite(requirementValue) && requirementValue > 0
+            const rawRequirement = program.requirements?.perCategoryCredits?.[category];
+            const requirementValue = rawRequirement === null || rawRequirement === undefined || rawRequirement === ''
+              ? null
+              : Number(rawRequirement);
+            const requiredCourses = Number(program.requirements?.minCoursesPerCategory?.[category]) || 0;
+            const requiredCategory = Boolean(program.requirements?.requiredCategories?.[category]);
+            const requirementText = requirementValue !== null && Number.isFinite(requirementValue) && requirementValue > 0
               ? `${requirementValue} 學分`
-              : totalCredits > 0
-                ? `${totalCredits} 學分`
-                : '未明確標註（目前資料庫未含學分數）';
+              : requiredCourses > 0
+                ? `至少 ${requiredCourses} 門`
+                : requiredCategory
+                  ? '必要類別（原文未列門數／學分）'
+                : '未標註各類別最低需求';
             const courseList = categoryCourses.length
               ? categoryCourses.map((course) => `<li>${formatCourseItem(course)}</li>`).join('')
               : '<li>此類別目前沒有可顯示課程。</li>';
@@ -233,9 +250,12 @@ function renderProgramList() {
           }).join('');
 
           const requirementInfo = program.requirements || {};
-          const totalRequirementText = Number(requirementInfo.totalCredits) > 0
+          const totalRequirementText = requirementInfo.totalCredits !== null && requirementInfo.totalCredits !== undefined && Number(requirementInfo.totalCredits) > 0
             ? `<div class="planning-meta">完成此微學程需修滿 ${requirementInfo.totalCredits} 學分</div>`
             : '<div class="planning-meta">完成此微學程總學分資訊目前尚未明確標註。</div>';
+          const sourceRequirementText = requirementInfo.note
+            ? `<div class="planning-meta"><strong>修業規定：</strong>${escapeHtml(requirementInfo.note)}</div>`
+            : '';
 
           return `
             <div class="program-item">
@@ -243,6 +263,7 @@ function renderProgramList() {
                 <h3>${program.programName}</h3>
                 <div class="meta">${program.domain} • ${program.year}學年度 • ${program.semester} • ${program.type}</div>
                 ${totalRequirementText}
+                ${sourceRequirementText}
               </div>
               <div class="tag-row">
                 <span class="tag">${program.semester}</span>
@@ -270,7 +291,7 @@ function renderStatisticsPage() {
     courses: Array.isArray(item.courses) ? item.courses : [],
     requirements: item.requirements || {
       totalCredits: null,
-      minCoursesPerCategory: { 基礎: 1, 核心: 1, 應用: 1 },
+      minCoursesPerCategory: { 基礎: 0, 核心: 0, 應用: 0 },
       perCategoryCredits: { 基礎: null, 核心: null, 應用: null }
     }
   }));

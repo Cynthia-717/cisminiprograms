@@ -34,18 +34,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程，本微學程需修習6學分，基礎、核心、應用各需修習2學分，修畢本學程規劃表中課程合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -83,18 +88,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程，本微學程需修習6學分，基礎、核心、應用各需修習2學分，修畢本學程規劃表中課程合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -182,7 +192,7 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 7,
       "minCoursesPerCategory": {
         "基礎": 1,
         "核心": 1,
@@ -193,7 +203,12 @@
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習7 學分，包含基礎、核心、應用課程至少各需選修 1 門課，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -296,10 +311,10 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 7,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
+        "基礎": 0,
+        "核心": 0,
         "應用": 1
       },
       "perCategoryCredits": {
@@ -307,7 +322,12 @@
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習 7 學分，包含基礎、核心、應用課程，基礎、核心、應用課程至少各需選修 1 門課。本微學程規劃表中課程選修合計 7 學分以上者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -390,18 +410,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 7,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 2,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": false,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習7學分，包含基礎、核心、應用課程，基礎必修2門。本微學程規劃表中課程選修合計7學分以上者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -494,18 +519,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 7,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 2,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": false,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習 7 學分，包含基礎、核心、應用課程，基礎必修兩門。本微學程規劃表中課程選修合計 7 學分以上者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -608,18 +638,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 7,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
+        "基礎": 4,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": false,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習7學分，包含基礎、核心、應用課程， 基礎必修 4學分。本微學程規劃表中課程選修合計7學分以上者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -717,18 +752,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習8學分，包含基礎、核心、應用課程，核心、應用各需修習2學分。本微學程規劃表中課程選修合計8學分以上者，可於數位自學學程完成度頁面線上自行列印取得證書，並得向校方教務處申請微學程證書。"
     }
   },
   {
@@ -826,18 +866,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習8學分，包含基礎、核心、應用課程，核心、應用各需修習2學分。本微學程規劃表中課程選修合計8學分以上者，可於數位自學學程完成度頁面線上自行列印取得證書，並得向校方教務處申請微學程證書。"
     }
   },
   {
@@ -940,18 +985,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習8學分，核心、應用各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計8學分以上者，可於數位自學學程完成度頁面線上自行列印取得證書，並得向校方教務處申請微學程證書。"
     }
   },
   {
@@ -1039,18 +1089,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習8學分，核心、應用各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -1123,18 +1178,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習8學分，核心、應用各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -1202,18 +1262,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習8學分，核心、應用各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -1281,18 +1346,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習8學分，核心、應用各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -1355,18 +1425,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習8學分，核心、應用各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -1429,18 +1504,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習8學分，核心、應用各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -1508,18 +1588,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習8學分，核心、應用各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -1587,18 +1672,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習8學分，核心、應用各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -1656,18 +1746,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -1730,18 +1825,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -1804,18 +1904,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -1878,18 +1983,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -1952,18 +2062,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -2026,18 +2141,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -2100,18 +2220,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -2184,18 +2309,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少需包含應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -2268,18 +2398,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少需包含應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -2352,18 +2487,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少需包含應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -2436,18 +2576,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少需包含應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -2520,18 +2665,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "該學程於115-1學期終止，117-1學期退場。請學生於116-2學期前完成學程修畢。\n\n凡本校學生皆可修習本學程。本學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少需包含應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -2654,18 +2804,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
+        "基礎": 0,
         "核心": 1,
-        "應用": 1
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": true,
+        "應用": false
+      },
+      "note": "1. 凡本校學生皆可修習本學程。本學程需修習 6 學分，包含基礎、核心、應用課程，基礎及核心課程至少各需選修 1 門課。\n2. 選修數位自學課程之學分總數不得超過 2 學分。\n3. 本微學程規劃表中課程選修合計 6 學分以上者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -2698,18 +2853,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
+        "基礎": 0,
         "核心": 1,
-        "應用": 1
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": true,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習 6 學分，包含基礎、核心、應用課程，基礎及核心課程至少各需選修 1 門課。本微學程規劃表中課程選修合計 6 學分以上者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -2742,18 +2902,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
+        "基礎": 0,
         "核心": 1,
-        "應用": 1
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": true,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習 6 學分，包含基礎、核心、應用課程，基礎及核心課程至少各需選修 1 門課。本微學程規劃表中課程選修合計 6 學分以上者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -2786,18 +2951,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
+        "基礎": 0,
         "核心": 1,
-        "應用": 1
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": true,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習 6 學分，包含基礎、核心、應用課程，基礎及核心課程至少各需選修 1 門課。本微學程規劃表中課程選修合計 6 學分以上者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -2885,18 +3055,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
+        "基礎": 0,
         "核心": 1,
-        "應用": 1
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": true,
+        "應用": false
+      },
+      "note": "1. 凡本校學生皆可修習本學程。本學程需修習 6 學分，包含基礎、核心、應用課程，基礎及核心課程至少各需選修 1 門課。\n2. 選修數位自學課程之學分總數不得超過 2 學分。\n3. 本微學程規劃表中課程選修合計 6 學分以上者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -2994,18 +3169,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
+        "基礎": 0,
         "核心": 1,
-        "應用": 1
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": true,
+        "應用": false
+      },
+      "note": "1. 凡本校學生皆可修習本學程。本學程需修習 6 學分，包含基礎、核心、應用課程，基礎及核心課程至少各需選修 1 門課。\n2. 選修數位自學課程之學分總數不得超過 2 學分。\n3. 本微學程規劃表中課程選修合計 6 學分以上者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -3108,18 +3288,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
+        "基礎": 0,
         "核心": 1,
-        "應用": 1
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": true,
+        "應用": false
+      },
+      "note": "1. 凡本校學生皆可修習本學程。本學程需修習 6 學分，包含基礎、核心、應用課程，基礎及核心課程至少各需選修 1 門課。\n2. 選修數位自學課程之學分總數不得超過 2 學分。\n3. 本微學程規劃表中課程選修合計 6 學分以上者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -3262,18 +3447,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
+        "基礎": 0,
         "核心": 1,
-        "應用": 1
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": true,
+        "應用": false
+      },
+      "note": "1. 凡本校學生皆可修習本學程。本學程需修習 6 學分，包含基礎、核心、應用課程，基礎及核心課程至少各需選修 1 門課。\n2. 選修數位自學課程之學分總數不得超過 2 學分。\n3. 本微學程規劃表中課程選修合計 6 學分以上者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -3341,18 +3531,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，核心及應用課程至少各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，可於數位自學學程完成度頁面線上自行列印取得證書，並得向校方教務處申請微學程證書。"
     }
   },
   {
@@ -3415,18 +3610,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，核心及應用課程至少各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，可於數位自學學程完成度頁面線上自行列印取得證書，並得向校方教務處申請微學程證書。"
     }
   },
   {
@@ -3489,18 +3689,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，核心及應用課程至少各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計6學分以上者，可於數位自學學程完成度頁面線上自行列印取得證書，並得向校方教務處申請微學程證書。"
     }
   },
   {
@@ -3568,18 +3773,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，核心及應用課程至少各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -3637,18 +3847,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，核心及應用課程至少各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -3706,18 +3921,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，核心及應用課程至少各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -3770,18 +3990,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，核心及應用課程至少各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -3834,18 +4059,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，核心及應用課程至少各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -3893,18 +4123,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，核心及應用課程至少各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -3952,18 +4187,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，核心及應用課程至少各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -4041,18 +4281,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，核心及應用課程至少各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -4090,18 +4335,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習 6 學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中含有一門應用課程 2 學分者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -4139,18 +4389,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -4188,18 +4443,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -4267,18 +4527,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中核心、應用課程至少各修習2學分者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -4346,18 +4611,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中核心、應用課程至少各修習2學分者，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -4425,18 +4695,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中核心、應用課程至少各修習2學分者，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習，得取得本微學程。"
     }
   },
   {
@@ -4509,18 +4784,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中核心、應用課程至少各修習2學分者，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習，得取得本微學程。"
     }
   },
   {
@@ -4603,18 +4883,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中核心、應用課程至少各修習2學分者，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習，得取得本微學程。"
     }
   },
   {
@@ -4697,18 +4982,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中核心、應用課程至少各修習2學分者，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習，得取得本微學程。"
     }
   },
   {
@@ -4791,18 +5081,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中核心、應用課程至少各修習2學分者，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習，得取得本微學程。"
     }
   },
   {
@@ -4875,18 +5170,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中核心、應用課程至少各修習2學分者，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習，得取得本微學程。"
     }
   },
   {
@@ -4959,18 +5259,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中核心、應用課程至少各修習2學分者，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習，得取得本微學程。"
     }
   },
   {
@@ -5043,18 +5348,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中核心、應用課程至少各修習2學分者，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習，得取得本微學程。"
     }
   },
   {
@@ -5137,18 +5447,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分。學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -5276,18 +5591,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分。學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -5435,18 +5755,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分。學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -5594,18 +5919,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分。學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -5753,18 +6083,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分。學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -5912,18 +6247,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分。學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -6071,18 +6411,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分。學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -6110,18 +6455,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": false
+      },
+      "note": "本微學程包括資料探勘研究與實務、巨量資料分析、大數據實作，共計 8 學 分，修課通過者，頒發學程證書。"
     }
   },
   {
@@ -6159,18 +6509,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": false
+      },
+      "note": "本微學程包括資料探勘研究與實務、巨量資料分析、大數據實作，共計 8 學 分，修課通過者，頒發學程證書。"
     }
   },
   {
@@ -6208,18 +6563,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": false
+      },
+      "note": "本微學程包括資料探勘研究與實務、巨量資料分析、大數據實作，共計 8 學 分，修課通過者，頒發學程證書。"
     }
   },
   {
@@ -6262,10 +6622,10 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
+        "基礎": 0,
+        "核心": 0,
         "應用": 1
       },
       "perCategoryCredits": {
@@ -6273,7 +6633,12 @@
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "本學程需修習 8 學分，包含基礎、核心、應用課程，基礎、核心、應 用課程至少各需選修 1 門課。修課通過者，頒發學程證書。"
     }
   },
   {
@@ -6341,10 +6706,10 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
+        "基礎": 0,
+        "核心": 0,
         "應用": 1
       },
       "perCategoryCredits": {
@@ -6352,7 +6717,12 @@
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "本學程需修習8學分，包含基礎、核心、應用課程，基礎、核心、應用課程至少各需選修1門課。修課通過者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -6420,10 +6790,10 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
+        "基礎": 0,
+        "核心": 0,
         "應用": 1
       },
       "perCategoryCredits": {
@@ -6431,7 +6801,12 @@
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "本學程需修習8學分，包含基礎、核心、應用課程，基礎、核心、應用課程至少各需選修1門課。修課通過者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -6504,10 +6879,10 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
+        "基礎": 0,
+        "核心": 0,
         "應用": 1
       },
       "perCategoryCredits": {
@@ -6515,7 +6890,12 @@
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "本學程需修習8學分，包含基礎、核心、應用課程，基礎、核心、應用課程至少各需選修1門課。修課通過者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -6588,18 +6968,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "本學程需修習8學分，包含基礎、核心、應用課程，基礎、核心、應用課程至少各需選修2學分。修課通過者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -6662,18 +7047,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "本學程需修習8學分，包含基礎、核心、應用課程，基礎、核心、應用課程至少各需選修2學分。本微學程規劃表中課程選修合計8學分以上者，可於數位自學學程完成度頁面線上自行列印取得證書，並得向校方教務處申請微學程證書。"
     }
   },
   {
@@ -6736,18 +7126,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "本學程需修習8學分，包含基礎、核心、應用課程，基礎、核心、應用課程至少各需選修2學分。本微學程規劃表中課程選修合計8學分以上者，可於數位自學學程完成度頁面線上自行列印取得證書，並得向校方教務處申請微學程證書。"
     }
   },
   {
@@ -6810,18 +7205,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "本學程需修習8學分，包含基礎、核心、應用課程，基礎、核心、應用課程至少各需選修2學分。本微學程規劃表中課程選修合計8學分以上者，可於數位自學學程完成度頁面線上自行列印取得證書，並得向校方教務處申請微學程證書。"
     }
   },
   {
@@ -6954,18 +7354,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "本學程需修習8學分，包含基礎、核心、應用課程，基礎、核心、應用課程至少各需選修2學分。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -7108,18 +7513,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "本學程需修習8學分，包含基礎、核心、應用課程，基礎、核心、應用課程至少各需選修2學分。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -7277,18 +7687,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "本學程需修習8學分，包含基礎、核心、應用課程，基礎、核心、應用課程至少各需選修2學分。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -7446,18 +7861,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "本學程需修習8學分，包含基礎、核心、應用課程，基礎、核心、應用課程至少各需選修2學分。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -7615,18 +8035,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "本學程需修習8學分，包含基礎、核心、應用課程，基礎、核心、應用課程至少各需選修2學分。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -7794,18 +8219,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "本學程需修習8學分，包含基礎、核心、應用課程，基礎、核心、應用課程至少各需選修2學分。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -7973,18 +8403,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "本學程需修習8學分，包含基礎、核心、應用課程，基礎、核心、應用課程至少各需選修2學分。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -8152,18 +8587,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "本學程需修習8學分，包含基礎、核心、應用課程，基礎、核心、應用課程至少各需選修2學分。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -8221,18 +8661,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6 學分以上，且修習課程中含有一門應用課程2 學分者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -8290,18 +8735,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6 學分以上，且修習課程中含有一門應用課程2 學分者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -8364,18 +8814,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本 微 學程。本微學程需修習 6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計 達6學分以上， 且修習課程中含有一門應用課程 2學分者， 即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -8438,18 +8893,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本 微 學程。本微學程需修習 6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計 達6學分以上， 且修習課程中含有一門應用課程 2學分者， 即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -8512,18 +8972,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本 微 學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計 達6學分以上，且修習課程中含有一門應用課程2學分者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -8586,18 +9051,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本 微 學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計 達6學分以上，且修習課程中含有一門應用課程2學分者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -8655,18 +9125,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計 達6學分以上，且修習課程中含有一門應用課程2學分者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -8739,18 +9214,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修 本微學程開設課程合計達 6學分以上，且修習課程中至少需包含應用課程2學分者， 即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -8828,18 +9308,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少需包含應用課程2學分者，可於數位自學學程完成度頁面線上自行列印取得證書，並得向校方教務處申請微學程證書。"
     }
   },
   {
@@ -8922,18 +9407,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少需包含應用課程2學分者，可於數位自學學程完成度頁面線上自行列印取得證書，並得向校方教務處申請微學程證書。"
     }
   },
   {
@@ -9026,18 +9516,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少需包含應用課程2學分者，可於數位自學學程完成度頁面線上自行列印取得證書，並得向校方教務處申請微學程證書。"
     }
   },
   {
@@ -9130,18 +9625,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少需包含應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -9234,18 +9734,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少需包含應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -9338,18 +9843,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少需包含應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -9442,18 +9952,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少需包含應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -9546,18 +10061,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少需包含應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -9650,18 +10170,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少需包含應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -9749,18 +10274,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少需包含應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -9853,18 +10383,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少需包含應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -9942,18 +10477,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 1
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需選修1學分，學生可自行從本微學程規劃表中修讀所需課程，完成者可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -10031,18 +10571,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 1
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需選修1學分，學生可自行從本微學程規劃表中修讀所需課程，完成者可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -10120,18 +10665,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 1
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需選修1學分，學生可自行從本微學程規劃表中修讀所需課程，完成者可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -10199,18 +10749,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 1
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需選修1學分，學生可自行從本微學程規劃表中修讀所需課程，完成者可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -10278,18 +10833,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 1
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需選修1學分，學生可自行從本微學程規劃表中修讀所需課程，完成者得取得本微學程。"
     }
   },
   {
@@ -10357,18 +10917,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 1
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需選修1學分，學生可自行從本微學程規劃表中修讀所需課程，完成者得取得本微學程。"
     }
   },
   {
@@ -10446,18 +11011,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 1
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需選修1學分，學生可自行從本微學程規劃表中修讀所需課程，完成者得取得本微學程。"
     }
   },
   {
@@ -10535,18 +11105,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 1
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需選修1學分，學生可自行從本微學程規劃表中修讀所需課程，完成者得取得本微學程。"
     }
   },
   {
@@ -10624,18 +11199,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 1
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需選修1學分，學生可自行從本微學程規劃表中修讀所需課程，完成者得取得本微學程。"
     }
   },
   {
@@ -10713,18 +11293,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 1
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需選修1學分，學生可自行從本微學程規劃表中修讀所需課程，完成者得取得本微學程。"
     }
   },
   {
@@ -10802,18 +11387,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 1
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需選修1學分，學生可自行從本微學程規劃表中修讀所需課程，完成者得取得本微學程。"
     }
   },
   {
@@ -10891,18 +11481,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 1
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需選修1學分，學生可自行從本微學程規劃表中修讀所需課程，完成者得取得本微學程。"
     }
   },
   {
@@ -10965,18 +11560,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少需包含應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -11059,18 +11659,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程需修習6學分，包含基礎、核心、應用課程各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -11153,18 +11758,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程需修習6學分，包含基礎、核心、應用課程各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -11247,18 +11857,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程需修習6學分，包含基礎、核心、應用課程各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -11341,18 +11956,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程需修習6學分，包含基礎、核心、應用課程各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -11435,18 +12055,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程需修習6學分，包含基礎、核心、應用課程各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -11529,18 +12154,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程需修習6學分，包含基礎、核心、應用課程各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -11628,18 +12258,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程需修習6學分，包含基礎、核心、應用課程各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -11727,18 +12362,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程需修習6學分，包含基礎、核心、應用課程各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -11826,18 +12466,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程需修習6學分，包含基礎、核心、應用課程各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -11925,18 +12570,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程需修習6學分，包含基礎、核心、應用課程各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -12054,18 +12704,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程需修習6學分，包含基礎、核心、應用課程各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -12123,18 +12778,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習8學分，包含基礎、核心、應用課程，核心需修習2學分、應用需修習2學分。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -12192,18 +12852,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習8學分，包含基礎、核心、應用課程，核心需修習2學分、應用需修習2學分。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -12261,18 +12926,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習8學分，包含基礎、核心、應用課程，核心需修習2學分、應用需修習2學分。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -12330,18 +13000,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習8學分，包含基礎、核心、應用課程，核心需修習2學分、應用需修習2學分。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -12399,18 +13074,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從規劃表中申請所需課程，凡選修本微學程開課課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，可於數位自學學程完成度頁面線上自行列印取得證書，並得向校方教務處申請微學程證書。"
     }
   },
   {
@@ -12473,18 +13153,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從規劃表中申請所需課程，凡選修本微學程開課課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，可於數位自學學程完成度頁面線上自行列印取得證書，並得向校方教務處申請微學程證書。"
     }
   },
   {
@@ -12557,18 +13242,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從規劃表中申請所需課程，凡選修本微學程開課課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -12641,18 +13331,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從規劃表中申請所需課程，凡選修本微學程開課課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -12730,18 +13425,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從規劃表中申請所需課程，凡選修本微學程開課課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -12824,18 +13524,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從規劃表中申請所需課程，凡選修本微學程開課課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -12928,18 +13633,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從規劃表中申請所需課程，凡選修本微學程開課課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -13022,18 +13732,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從規劃表中申請所需課程，凡選修本微學程開課課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -13116,18 +13831,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從規劃表中申請所需課程，凡選修本微學程開課課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -13210,18 +13930,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "該學程於115-1學期終止，117-1學期退場。請學生於116-2學期前完成學程修畢。\n\n凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從規劃表中申請所需課程，凡選修本微學程開課課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -13294,18 +14019,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習 6 學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達 6 學分以上，且修習課程中核心、應用課程至少各修習 2 學分者，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習，得取得本微學程。"
     }
   },
   {
@@ -13398,18 +14128,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習 6 學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達 6 學分以上，且修習課程中核心、應用課程至少各修習 2 學分者，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習，得取得本微學程。"
     }
   },
   {
@@ -13507,18 +14242,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習 6 學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達 6 學分以上，且修習課程中核心、應用課程至少各修習 2 學分者，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習，得取得本微學程。"
     }
   },
   {
@@ -13616,18 +14356,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習 6 學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達 6 學分以上，且修習課程中核心、應用課程至少各修習 2 學分者，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習，得取得本微學程。"
     }
   },
   {
@@ -13725,18 +14470,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習 6 學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達 6 學分以上，且修習課程中核心、應用課程至少各修習 2 學分者，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習，得取得本微學程。"
     }
   },
   {
@@ -13834,18 +14584,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習 6 學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達 6 學分以上，且修習課程中核心、應用課程至少各修習 2 學分者，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習，得取得本微學程。"
     }
   },
   {
@@ -13933,7 +14688,7 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
         "基礎": 1,
         "核心": 1,
@@ -13944,7 +14699,12 @@
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程為臺北醫學大學與國立臺北大學共同設立之跨校微學程課程，凡兩校大學部學生皆可跨校選修本學程規劃表所列課程。本學程需修習8學分，基礎、核心及應用領域課程至少各修習1門。臺北大學學生應依國立臺北大學商學院跨校「永續健康產業與管理微學程」設置要點規定辦理。"
     }
   },
   {
@@ -14032,7 +14792,7 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
         "基礎": 1,
         "核心": 1,
@@ -14043,7 +14803,12 @@
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程為臺北醫學大學與國立臺北大學共同設立之跨校微學程課程，凡兩校大學部學生皆可跨校選修本學程規劃表所列課程。本學程需修習8學分，基礎、核心及應用領域課程至少各修習1門。臺北大學學生應依國立臺北大學商學院跨校「永續健康產業與管理微學程」設置要點規定辦理。"
     }
   },
   {
@@ -14111,18 +14876,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，其中「應用」課程為取得微學程之必要項目。本微學程規劃表中課程選修合計 6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -14195,18 +14965,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 1
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需選修1學分，學生可自行從本微學程規劃表中修讀所需課程，完成者得取得本微學程。"
     }
   },
   {
@@ -14289,18 +15064,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 1
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需選修1學分，學生可自行從本微學程規劃表中修讀所需課程，完成者得取得本微學程。"
     }
   },
   {
@@ -14383,18 +15163,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 1
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需選修1學分，學生可自行從本微學程規劃表中修讀所需課程，完成者得取得本微學程。"
     }
   },
   {
@@ -14492,18 +15277,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 1
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需選修1學分，學生可自行從本微學程規劃表中修讀所需課程，完成者得取得本微學程。"
     }
   },
   {
@@ -14601,18 +15391,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 1
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需選修1學分，學生可自行從本微學程規劃表中修讀所需課程，完成者得取得本微學程。"
     }
   },
   {
@@ -14710,18 +15505,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 1
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需選修1學分，學生可自行從本微學程規劃表中修讀所需課程，完成者得取得本微學程。"
     }
   },
   {
@@ -14819,18 +15619,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 1
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需選修1學分，學生可自行從本微學程規劃表中修讀所需課程，完成者得取得本微學程。"
     }
   },
   {
@@ -14908,18 +15713,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習 6 學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達 6 學分以上，且修習課程中核心、應用課程至少各修習 2 學分者，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習，得取得本微學程。"
     }
   },
   {
@@ -15002,18 +15812,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習 6 學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達 6 學分以上，且修習課程中核心、應用課程至少各修習 2 學分者，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習，得取得本微學程。"
     }
   },
   {
@@ -15101,18 +15916,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習 6 學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達 6 學分以上，且修習課程中核心、應用課程至少各修習 2 學分者，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習，得取得本微學程。"
     }
   },
   {
@@ -15200,18 +16020,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習 6 學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達 6 學分以上，且修習課程中核心、應用課程至少各修習 2 學分者，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習，得取得本微學程。"
     }
   },
   {
@@ -15304,18 +16129,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習 6 學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達 6 學分以上，且修習課程中核心、應用課程至少各修習 2 學分者，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習，得取得本微學程。"
     }
   },
   {
@@ -15418,18 +16248,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程需修習8學分，包含基礎、核心、應用課程至少各修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。參與清大培育電資專業醫學生，需修畢以下4門清大專班基礎課程：邏輯設計、計算機程式設計、資料結構、線性代數，並取得該課程及格成績者，才得認列本微學程。"
     }
   },
   {
@@ -15532,18 +16367,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程需修習8學分，包含基礎、核心、應用課程至少各修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。參與清大培育電資專業醫學生，需修畢以下4門清大專班基礎課程：邏輯設計、計算機程式設計、資料結構、線性代數，並取得該課程及格成績者，才得認列本微學程。"
     }
   },
   {
@@ -15656,18 +16496,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程需修習8學分，包含基礎、核心、應用課程至少各修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。參與清大培育電資專業醫學生，需修畢以下4門清大專班基礎課程：邏輯設計、計算機程式設計、資料結構、線性代數，並取得該課程及格成績者，才得認列本微學程。"
     }
   },
   {
@@ -15735,18 +16580,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習8學分，核心、應用各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -15814,18 +16664,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習8學分，核心、應用各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -15893,18 +16748,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習8學分，核心、應用各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -15972,18 +16832,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習8學分，核心、應用各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -16046,18 +16911,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -16130,18 +17000,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -16199,18 +17074,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -16268,18 +17148,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -16332,18 +17217,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -16406,18 +17296,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -16480,18 +17375,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "該學程於115-1學期終止，117-1學期退場。請學生於116-2學期前完成學程修畢。\n\n凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -16549,18 +17449,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程，本微學程需修習6學分，基礎、核心、應用各需修習2學分，修畢本學程規劃表中課程合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -16603,18 +17508,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習基礎、核心、應用課程各2學分者，可於數位自學學程完成度頁面線上自行列印取得證書，並得向校方教務處申請微學程證書。"
     }
   },
   {
@@ -16657,18 +17567,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習基礎、核心、應用課程各2學分者，可於數位自學學程完成度頁面線上自行列印取得證書，並得向校方教務處申請微學程證書。"
     }
   },
   {
@@ -16716,18 +17631,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習基礎、核心、應用課程各2學分者，得取得本微學程。"
     }
   },
   {
@@ -16775,18 +17695,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習基礎、核心、應用課程各2學分者，得取得本微學程。"
     }
   },
   {
@@ -16834,18 +17759,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習基礎、核心、應用課程各2學分者，得取得本微學程。"
     }
   },
   {
@@ -16893,18 +17823,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習基礎、核心、應用課程各2學分者，得取得本微學程。"
     }
   },
   {
@@ -16947,18 +17882,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習基礎、核心、應用課程各2學分者，得取得本微學程。"
     }
   },
   {
@@ -17001,18 +17941,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習基礎、核心、應用課程各2學分者，得取得本微學程。"
     }
   },
   {
@@ -17055,18 +18000,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習基礎、核心、應用課程各2學分者，得取得本微學程。"
     }
   },
   {
@@ -17119,18 +18069,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習基礎、核心、應用課程各2學分者，得取得本微學程。"
     }
   },
   {
@@ -17208,18 +18163,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習 6 學分，包含基礎、核心、應用課程，核心及應用課程至少各需修習 2 學分。本微學程規劃表中課程選修合計 6 學分以上者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -17297,18 +18257,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習 6 學分，包含基礎、核心、應用課程，核心及應用課程至少各需修習 2 學分。本微學程規劃表中課程選修合計 6 學分以上者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -17386,18 +18351,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習 6 學分，包含基礎、核心、應用課程，核心及應用課程至少各需修習 2 學分。本微學程規劃表中課程選修合計 6 學分以上者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -17475,18 +18445,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習 6 學分，包含基礎、核心、應用課程，核心及應用課程至少各需修習 2 學分。本微學程規劃表中課程選修合計 6 學分以上者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -17574,18 +18549,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，核心及應用課程至少各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計6學分以上者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -17683,18 +18663,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，核心及應用課程至少各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -17792,18 +18777,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，核心及應用課程至少各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -17901,18 +18891,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，核心及應用課程至少各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -18005,18 +19000,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，核心及應用課程至少各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -18089,18 +19089,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，核心及應用課程至少各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -18178,18 +19183,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，核心及應用課程至少各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -18267,18 +19277,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，核心及應用課程至少各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -18371,18 +19386,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
-        "核心": null,
-        "應用": null
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，核心及應用課程至少各需修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
     }
   },
   {
@@ -18430,18 +19450,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習 6 學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修合計 6 學分以上者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -18489,18 +19514,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習 6 學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修合計 6 學分以上者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -18563,18 +19593,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中含有一門應用課程2學分者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -18642,18 +19677,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中含有一門應用課程2學分者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -18721,18 +19761,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中含有一門應用課程2學分者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -18805,18 +19850,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
         "應用": null
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中含有一門應用課程2學分者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -18914,18 +19964,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -19023,18 +20078,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -19142,18 +20202,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -19261,18 +20326,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，即可獲得由校方教務處出具之微學程證明。"
     }
   },
   {
@@ -19375,18 +20445,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -19489,18 +20564,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -19623,18 +20703,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -19757,18 +20842,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -19871,18 +20961,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -19975,18 +21070,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -20079,18 +21179,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -20183,18 +21288,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本微學程。本微學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少修習應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -20257,18 +21367,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 1
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習 6 學分，包含基礎、核心、應用 課程，基礎、核心及應用課程至少各需選修 1 學分，學生可自行從本微學程規劃 表中修讀所需課程，完成者得取得本微學程。"
     }
   },
   {
@@ -20331,18 +21446,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 1
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習 6 學分，包含基礎、核心、應用 課程，基礎、核心及應用課程至少各需選修 1 學分，學生可自行從本微學程規劃 表中修讀所需課程，完成者得取得本微學程。"
     }
   },
   {
@@ -20405,18 +21525,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 1
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習 6 學分，包含基礎、核心、應用 課程，基礎、核心及應用課程至少各需選修 1 學分，學生可自行從本微學程規劃 表中修讀所需課程，完成者得取得本微學程。"
     }
   },
   {
@@ -20479,18 +21604,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 1
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習 6 學分，包含基礎、核心、應用 課程，基礎、核心及應用課程至少各需選修 1 學分，學生可自行從本微學程規劃 表中修讀所需課程，完成者得取得本微學程。"
     }
   },
   {
@@ -20553,18 +21683,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 6,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
         "基礎": null,
         "核心": null,
-        "應用": null
+        "應用": 1
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習 6 學分，包含基礎、核心、應用 課程，基礎、核心及應用課程至少各需選修 1 學分，學生可自行從本微學程規劃 表中修讀所需課程，完成者得取得本微學程。"
     }
   },
   {
@@ -20642,18 +21777,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程為臺北醫學大學與國立臺北科技大學共同開發設立之跨校微學程課程，凡兩校學生皆可跨校選修本學程規劃表所列課程。本學程需修習8學分，包含基礎、核心、應用課程需至少各需選修2學分。本校學生於本學程規劃表中，課程選修合計8學分以上者，可於數位自學學程完成度頁面線上自行列印取得證書，並得向校方教務處申請微學程證書。"
     }
   },
   {
@@ -20731,18 +21871,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程為臺北醫學大學與國立臺北科技大學共同開發設立之跨校微學程課程，凡兩校學生皆可跨校選修本學程規劃表所列課程。本學程需修習8學分，包含基礎、核心、應用課程需至少各需選修2學分。本校學生於本學程規劃表中，課程選修合計8學分以上者，可於數位自學學程完成度頁面線上自行列印取得證書，並得向校方教務處申請微學程證書。"
     }
   },
   {
@@ -20820,18 +21965,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程為臺北醫學大學與國立臺北科技大學共同開發設立之跨校微學程課程，凡兩校學生皆可跨校選修本學程規劃表所列課程。本學程需修習8學分，包含基礎、核心、應用課程需至少各需選修2學分。本校學生於本學程規劃表中，課程選修合計8學分以上者，可於數位自學學程完成度頁面線上自行列印取得證書，並得向校方教務處申請微學程證書。"
     }
   },
   {
@@ -20924,18 +22074,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程為臺北醫學大學與國立臺北科技大學共同開發設立之跨校微學程課程，凡兩校學生皆可跨校選修本學程規劃表所列課程。本學程需修習8學分，包含基礎、核心、應用課程需至少各需選修2學分。本校學生於本學程規劃表中，課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -21028,18 +22183,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程為臺北醫學大學與國立臺北科技大學共同開發設立之跨校微學程課程，凡兩校學生皆可跨校選修本學程規劃表所列課程。本學程需修習8學分，包含基礎、核心、應用課程需至少各需選修2學分。本校學生於本學程規劃表中，課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -21137,18 +22297,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程為臺北醫學大學與國立臺北科技大學共同開發設立之跨校微學程課程，凡兩校學生皆可跨校選修本學程規劃表所列課程。本學程需修習8學分，包含基礎、核心、應用課程需至少各需選修2學分。本校學生於本學程規劃表中，課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -21251,18 +22416,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程為臺北醫學大學與國立臺北科技大學共同開發設立之跨校微學程課程，凡兩校學生皆可跨校選修本學程規劃表所列課程。本學程需修習8學分，包含基礎、核心、應用課程需至少各需選修2學分。本校學生於本學程規劃表中，課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -21390,18 +22560,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程為臺北醫學大學與國立臺北科技大學共同開發設立之跨校微學程課程，凡兩校學生皆可跨校選修本學程規劃表所列課程。本學程需修習8學分，包含基礎、核心、應用課程需至少各需選修2學分。本校學生於本學程規劃表中，課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -21524,18 +22699,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程為臺北醫學大學與國立臺北科技大學共同開發設立之跨校微學程課程，凡兩校學生皆可跨校選修本學程規劃表所列課程。本學程需修習8學分，包含基礎、核心、應用課程需至少各需選修2學分。本校學生於本學程規劃表中，課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -21668,18 +22848,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程為臺北醫學大學與國立臺北科技大學共同開發設立之跨校微學程課程，凡兩校學生皆可跨校選修本學程規劃表所列課程。本學程需修習8學分，包含基礎、核心、應用課程需至少各需選修2學分。本校學生於本學程規劃表中，課程選修合計8學分以上者，得取得本微學程。"
     }
   },
   {
@@ -21812,18 +22997,23 @@
       }
     ],
     "requirements": {
-      "totalCredits": null,
+      "totalCredits": 8,
       "minCoursesPerCategory": {
-        "基礎": 1,
-        "核心": 1,
-        "應用": 1
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
       },
       "perCategoryCredits": {
-        "基礎": null,
-        "核心": null,
-        "應用": null
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
       },
-      "note": "由 Excel 課程規劃表匯入"
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程為臺北醫學大學與國立臺北科技大學共同開發設立之跨校微學程課程，凡兩校學生皆可跨校選修本學程規劃表所列課程。本學程需修習8學分，包含基礎、核心、應用課程需至少各需選修2學分。本校學生於本學程規劃表中，課程選修合計8學分以上者，得取得本微學程。"
     }
   }
 ]

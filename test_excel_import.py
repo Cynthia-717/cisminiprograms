@@ -4,7 +4,7 @@ from pathlib import Path
 
 from openpyxl import Workbook
 
-from scripts.import_pdfs import extract_courses_from_excel, infer_domain
+from scripts.import_pdfs import extract_courses_from_excel, extract_requirements_from_excel, infer_domain, parse_requirement_text
 
 
 class ExcelImportTests(unittest.TestCase):
@@ -60,6 +60,65 @@ class ExcelImportTests(unittest.TestCase):
                 {"category": "核心", "name": "臨床試驗實務概論", "credit": 2},
             ],
         )
+
+    def test_extracts_requirements_from_first_sheet(self):
+        wb = Workbook()
+        ws = wb.active
+        ws.append(["適用學年期", "學程名稱", "修業規定", "至少需修畢學分數"])
+        ws.append(["1151", "測試微學程", "本微學程需修習6學分，基礎、核心、應用各需修習2學分。", 6])
+        wb.create_sheet("課程規劃表")
+
+        tmp_dir = Path(tempfile.gettempdir()) / "microprogram-test"
+        tmp_dir.mkdir(exist_ok=True)
+        path = tmp_dir / "測試微學程 1151.xlsx"
+        wb.save(path)
+
+        requirements = extract_requirements_from_excel(path)
+
+        self.assertEqual(requirements["totalCredits"], 6)
+        self.assertEqual(requirements["perCategoryCredits"], {"基礎": 2, "核心": 2, "應用": 2})
+        self.assertEqual(requirements["note"], "本微學程需修習6學分，基礎、核心、應用各需修習2學分。")
+
+    def test_extracts_required_category_courses_and_total_from_prose(self):
+        requirements = parse_requirement_text(
+            "本學程需修習8學分，基礎及核心課程至少各需選修1門，應用課程至少需修習2學分。"
+        )
+
+        self.assertEqual(requirements["totalCredits"], 8)
+        self.assertEqual(requirements["minCoursesPerCategory"], {"基礎": 1, "核心": 1, "應用": 0})
+        self.assertEqual(requirements["perCategoryCredits"], {"基礎": None, "核心": None, "應用": 2})
+
+    def test_extracts_chinese_course_counts_and_required_category_without_amount(self):
+        requirements = parse_requirement_text(
+            "本學程需修習7學分，基礎必修兩門；應用課程為取得微學程之必要項目。"
+        )
+
+        self.assertEqual(requirements["minCoursesPerCategory"]["基礎"], 2)
+        self.assertTrue(requirements["requiredCategories"]["基礎"])
+        self.assertTrue(requirements["requiredCategories"]["應用"])
+        self.assertIsNone(requirements["perCategoryCredits"]["應用"])
+
+    def test_does_not_apply_one_category_count_to_prior_category_list(self):
+        requirements = parse_requirement_text(
+            "本學程需修習7學分，包含基礎、核心、應用課程，基礎必修兩門。"
+        )
+
+        self.assertEqual(requirements["minCoursesPerCategory"], {"基礎": 2, "核心": 0, "應用": 0})
+        self.assertEqual(requirements["perCategoryCredits"], {"基礎": None, "核心": None, "應用": None})
+
+    def test_marks_only_the_category_explicitly_called_necessary(self):
+        requirements = parse_requirement_text(
+            "本學程需修習6學分，包含基礎、核心、應用課程，其中應用課程為取得微學程之必要項目。"
+        )
+
+        self.assertEqual(requirements["requiredCategories"], {"基礎": False, "核心": False, "應用": True})
+
+    def test_does_not_infer_category_minimum_when_rule_only_lists_categories(self):
+        requirements = parse_requirement_text("本學程需修習8學分，包含基礎、核心、應用課程，其餘學分可自行選修。")
+
+        self.assertEqual(requirements["totalCredits"], 8)
+        self.assertEqual(requirements["minCoursesPerCategory"], {"基礎": 0, "核心": 0, "應用": 0})
+        self.assertEqual(requirements["perCategoryCredits"], {"基礎": None, "核心": None, "應用": None})
 
     def test_infer_domain_from_microprogram_folder_name(self):
         self.assertEqual(

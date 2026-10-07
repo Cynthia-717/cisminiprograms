@@ -10,6 +10,7 @@ written to data.json and data.js for GitHub Pages to use.
 import argparse
 import json
 import re
+import unicodedata
 from pathlib import Path
 
 import pdfplumber
@@ -166,6 +167,149 @@ def get_excel_sheet(workbook):
     if workbook.worksheets:
         return workbook.worksheets[0]
     return None
+
+
+def read_excel_rows(path: Path, sheet_index: int = 0):
+    if path.suffix.lower() in {".xlsx", ".xlsm"}:
+        workbook = load_workbook(path, read_only=True, data_only=True)
+        if sheet_index >= len(workbook.worksheets):
+            return []
+        return list(workbook.worksheets[sheet_index].iter_rows(values_only=True))
+    if path.suffix.lower() == ".xls":
+        workbook = xlrd.open_workbook(str(path))
+        if sheet_index >= len(workbook.sheets()):
+            return []
+        sheet = workbook.sheet_by_index(sheet_index)
+        return [[sheet.cell_value(row, column) for column in range(sheet.ncols)] for row in range(sheet.nrows)]
+    return []
+
+
+def parse_requirement_text(text: str, explicit_total=None) -> dict:
+    original_text = str(text or "").strip()
+    text = unicodedata.normalize("NFKC", original_text)
+    normalized = re.sub(r"\s+", "", text)
+
+    total_credits = None
+    if explicit_total not in (None, ""):
+        match = re.search(r"\d+(?:\.\d+)?", unicodedata.normalize("NFKC", str(explicit_total)))
+        if match:
+            value = float(match.group())
+            total_credits = int(value) if value.is_integer() else value
+    if total_credits is None:
+        total_patterns = [
+            r"(?:本(?:微)?學程|本學分學程|微學程|學程)?(?:至少)?(?:需|應)?(?:修習|修畢|修滿|修讀)\s*(\d+(?:\.\d+)?)\s*學分",
+            r"(?:至少應修畢學分數|至少需修畢學分數|至少應修畢|至少需修畢|需修畢學分數|合計達|共計)\s*[:：]?\s*(\d+(?:\.\d+)?)\s*學分",
+        ]
+        for pattern in total_patterns:
+            match = re.search(pattern, normalized)
+            if match:
+                value = float(match.group(1))
+                total_credits = int(value) if value.is_integer() else value
+                break
+
+    per_category_credits = {category: None for category in CATEGORIES}
+    min_courses = {category: 0 for category in CATEGORIES}
+    required_categories = {category: False for category in CATEGORIES}
+    number_pattern = r"(?:\d+(?:\.\d+)?|十[一二兩三四五六七八九]?|[一二兩三四五六七八九])"
+
+    def parse_number(value):
+        chinese_numbers = {"一": 1, "二": 2, "兩": 2, "三": 3, "四": 4, "五": 5, "六": 6, "七": 7, "八": 8, "九": 9}
+        if value.startswith("十"):
+            return 10 + chinese_numbers.get(value[1:], 0)
+        if value == "十":
+            return 10
+        if value in chinese_numbers:
+            return chinese_numbers[value]
+        number = float(value)
+        return int(number) if number.is_integer() else number
+
+    category_group = re.compile(
+        r"(?P<group>(?:基礎|核心|應用)(?:課程)?(?:[、，,及和與]\s*(?:基礎|核心|應用)(?:課程)?)*)"
+    )
+    for clause in re.split(r"[。；;\n]+", normalized):
+        matches = list(category_group.finditer(clause))
+        for index, match in enumerate(matches):
+            end = matches[index + 1].start() if index + 1 < len(matches) else len(clause)
+            following = clause[match.end():end]
+            listed_categories = re.findall(r"基礎|核心|應用", match.group("group"))
+            categories = set(listed_categories)
+            if len(listed_categories) != len(categories):
+                categories = {listed_categories[-1]}
+
+            context = clause[max(0, match.start() - 6):match.start()] + following[:24]
+            has_requirement_marker = bool(re.search(r"至少|各|需|應|必修|必選|必要|必須|選修|修習|修畢|(?:需|應)包含", context))
+            if has_requirement_marker:
+                for category in categories:
+                    required_categories[category] = True
+
+            amount_match = re.search(rf"({number_pattern})\s*(學分|門)(?:課)?", following)
+            if not amount_match:
+                continue
+            context = clause[max(0, match.start() - 6):match.start()] + following[:amount_match.end()]
+            if not re.search(r"至少|各|需|應|必修|必選|包含|選修|修習|修畢", context):
+                continue
+
+            amount = parse_number(amount_match.group(1))
+            if amount_match.group(2) == "學分":
+                for category in categories:
+                    per_category_credits[category] = amount
+                    required_categories[category] = True
+            else:
+                for category in categories:
+                    min_courses[category] = amount
+                    required_categories[category] = True
+
+    return {
+        "totalCredits": total_credits,
+        "minCoursesPerCategory": min_courses,
+        "perCategoryCredits": per_category_credits,
+        "requiredCategories": required_categories,
+        "note": original_text or None,
+    }
+
+
+def extract_requirements_from_excel(path: Path) -> dict:
+    """Read total and per-category requirements from the first worksheet."""
+    defaults = {
+        "totalCredits": None,
+        "minCoursesPerCategory": {category: 0 for category in CATEGORIES},
+        "perCategoryCredits": {category: None for category in CATEGORIES},
+        "requiredCategories": {category: False for category in CATEGORIES},
+        "note": None,
+    }
+    try:
+        rows = read_excel_rows(path, sheet_index=0)
+    except Exception as error:
+        print(f"Could not read requirements from {path}: {error}")
+        return defaults
+    if not rows:
+        return defaults
+
+    header_index = None
+    header_cells = []
+    for index, row in enumerate(rows[:15]):
+        cells = ["" if value is None else re.sub(r"\s+", "", str(value)) for value in row]
+        if any("修業規定" in cell or "至少需修畢學分數" in cell for cell in cells):
+            header_index = index
+            header_cells = cells
+            break
+    if header_index is None:
+        return defaults
+
+    rule_index = next((i for i, cell in enumerate(header_cells) if "修業規定" in cell), None)
+    total_index = next((i for i, cell in enumerate(header_cells) if "至少需修畢學分數" in cell or "總學分" in cell), None)
+
+    def first_value(column_index):
+        if column_index is None:
+            return None
+        for row in rows[header_index + 1:]:
+            if column_index < len(row) and row[column_index] not in (None, ""):
+                return row[column_index]
+        return None
+
+    rule_text = first_value(rule_index)
+    explicit_total = first_value(total_index)
+    return parse_requirement_text(rule_text or "", explicit_total)
 
 
 def extract_courses_from_excel(path: Path):
@@ -493,12 +637,7 @@ def main():
         if domain == "未分類" and "自主學習" in str(path):
             continue
         courses = extract_courses_from_excel(path)
-        requirements = {
-            "totalCredits": None,
-            "minCoursesPerCategory": {"基礎": 1, "核心": 1, "應用": 1},
-            "perCategoryCredits": {"基礎": None, "核心": None, "應用": None},
-            "note": "由 Excel 課程規劃表匯入",
-        }
+        requirements = extract_requirements_from_excel(path)
         record = {
             "programName": infer_program_name(path),
             "domain": domain,
