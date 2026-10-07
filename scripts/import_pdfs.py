@@ -113,9 +113,10 @@ def infer_program_name(path: Path) -> str:
     return name.strip()
 
 
-def clean_course_name(value: str) -> str:
+def clean_course_name(value: str, strip_category: bool = True) -> str:
     value = re.sub(r"\s+", "", value)
-    value = re.sub(r"^(?:基礎|核心|應用)", "", value)
+    if strip_category:
+        value = re.sub(r"^(?:基礎|核心|應用)", "", value)
     value = value.strip("-－–—：:、。 ")
     banned = ("課程屬性", "科目名稱", "課號", "開課單位", "選別", "學分", "備註", "課程規劃表")
     return "" if not value or any(word in value for word in banned) else value
@@ -198,6 +199,19 @@ def extract_courses_from_excel(path: Path):
     if header_index is None:
         return []
 
+    header_cells = ["" if value is None else re.sub(r"\s+", "", str(value)) for value in rows[header_index]]
+
+    def find_column(labels):
+        for label in labels:
+            for index, cell in enumerate(header_cells):
+                if cell == label:
+                    return index
+        return None
+
+    course_name_index = find_column(("學程課程", "科目名稱", "課程名稱", "課程名"))
+    category_index = find_column(("領域名稱", "類別", "課程屬性", "課程類別"))
+    credit_index = find_column(("科目學分", "學分"))
+
     courses = []
     seen = set()
     current_category = None
@@ -208,60 +222,65 @@ def extract_courses_from_excel(path: Path):
             continue
 
         category = None
-        for cell in cells:
-            normalized = normalize_category_label(cell)
-            if normalized:
-                category = normalized
-                current_category = normalized
-                break
-        if category is None:
-            category = current_category
+        if category_index is not None and category_index < len(cells):
+            category = normalize_category_label(cells[category_index])
+            if category:
+                current_category = category
+            else:
+                category = current_category
+        else:
+            for cell in cells:
+                normalized = normalize_category_label(cell)
+                if normalized:
+                    category = normalized
+                    current_category = normalized
+                    break
+            if category is None:
+                category = current_category
 
         if category not in CATEGORIES:
             continue
 
         course_name = None
-        course_name_index = None
         numeric_candidates = []
         for index, cell in enumerate(cells):
             if not cell:
                 continue
             if re.fullmatch(r"\d+(?:\.\d+)?", cell):
                 numeric_candidates.append((index, float(cell)))
-                continue
-            if any(keyword in cell for keyword in ["類別", "科目名稱", "課程名稱", "課程名", "課號", "學分", "備註", "開課單位", "開課學期", "屬性", "性質", "選別", "領域名稱", "領域應修學分數", "領域備註", "學程課程"]):
-                continue
-            if normalize_category_label(cell) is not None:
-                continue
-            if re.fullmatch(r"[A-Z]{1,3}\d{5,8}|\d{8}", cell):
-                continue
-            course_name = cell
-            course_name_index = index
-            break
-
-        if course_name is None:
+        if course_name_index is not None:
+            if course_name_index < len(cells):
+                course_name = cells[course_name_index]
+        else:
             for cell in cells:
-                candidate = clean_course_name(cell)
-                if candidate and candidate not in {"", "課程規劃表"}:
-                    course_name = candidate
+                if not cell or any(keyword in cell for keyword in ["類別", "科目名稱", "課程名稱", "課程名", "課號", "學分", "備註", "開課單位", "開課學期", "屬性", "性質", "選別", "領域名稱", "領域應修學分數", "領域備註", "學程課程"]):
+                    continue
+                if normalize_category_label(cell) is not None or re.fullmatch(r"[A-Z]{1,3}\d{5,8}|\d{8}", cell):
+                    continue
+                if not re.fullmatch(r"\d+(?:\.\d+)?", cell):
+                    course_name = cell
                     break
+
+        if course_name:
+            course_name = clean_course_name(course_name, strip_category=course_name_index is None)
 
         if not course_name:
             continue
 
         credit_value = None
-        for index, value in reversed(numeric_candidates):
-            if course_name_index is not None and index <= course_name_index:
-                continue
-            if value <= 10:
-                credit_value = int(value) if value.is_integer() else value
-                break
-        if credit_value is None and numeric_candidates:
-            _, value = numeric_candidates[-1]
-            if value <= 10:
-                credit_value = int(value) if value.is_integer() else value
+        if credit_index is not None and credit_index < len(cells):
+            credit_text = cells[credit_index]
+            if re.fullmatch(r"\d+(?:\.\d+)?", credit_text):
+                value = float(credit_text)
+                if value <= 10:
+                    credit_value = int(value) if value.is_integer() else value
+        elif numeric_candidates:
+            for _, value in reversed(numeric_candidates):
+                if value <= 10:
+                    credit_value = int(value) if value.is_integer() else value
+                    break
 
-        course_name = normalize_digital_course_name(clean_course_name(course_name), cells)
+        course_name = normalize_digital_course_name(course_name, cells)
         if not course_name:
             continue
 
