@@ -2240,6 +2240,2375 @@
     }
   },
   {
+    "programName": "健康物聯網微學程",
+    "domain": "人工智慧領域",
+    "year": 107,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/健康物聯網微學程/健康物聯網微學程1071.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "物聯網架構與程式寫作",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "感測器導論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "健康物聯網趨勢與創新",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "健康物聯網實務應用",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 1,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": false,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎課程至少需選修1門課。本微學程規劃表中課程選修合計6學分以上者，即可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "健康物聯網微學程",
+    "domain": "人工智慧領域",
+    "year": 109,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/健康物聯網微學程/健康物聯網微學程1092.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "感測器導論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "運動復原",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-穿戴物聯應用與技術入門",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域2.0)-用案例學電腦組建",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域2.0)-資訊技術基礎",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "生物感測器與實務",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "健康物聯網趨勢與創新",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "物聯網架構與程式寫作",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "健康物聯網實務應用",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "健康促進認知功能訓練",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，即可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "健康物聯網微學程",
+    "domain": "人工智慧領域",
+    "year": 110,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/健康物聯網微學程/健康物聯網微學程1101.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "感測器導論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "運動復原",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-穿戴物聯應用與技術入門",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域2.0)-資訊技術基礎",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "健康物聯網趨勢與創新",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "健康促進認知功能訓練",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "以微處理器建構健康物聯網",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "物聯網架構與程式寫作",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "健康物聯網實務應用",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，可於數位自學學程完成度頁面線上自行列印取得證書，並得向校方教務處申請微學程證書。"
+    }
+  },
+  {
+    "programName": "健康物聯網微學程",
+    "domain": "人工智慧領域",
+    "year": 110,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/健康物聯網微學程/健康物聯網微學程1102.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "感測器導論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "運動復原",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-穿戴物聯應用與技術入門",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域2.0)-資訊技術基礎",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "健康物聯網趨勢與創新",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "健康促進認知功能訓練",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "以微處理器建構健康物聯網",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "物聯網架構與程式寫作",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "健康物聯網實務應用",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，可於數位自學學程完成度頁面線上自行列印取得證書，並得向校方教務處申請微學程證書。"
+    }
+  },
+  {
+    "programName": "健康物聯網微學程",
+    "domain": "人工智慧領域",
+    "year": 111,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/健康物聯網微學程/健康物聯網微學程1111.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "感測器導論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "運動復原",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-穿戴物聯應用與技術入門",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域2.0)-資訊技術基礎",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "健康物聯網趨勢與創新",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "健康促進認知功能訓練",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "創客數位設計",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "以微處理器建構健康物聯網",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "物聯網架構與程式寫作",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "健康物聯網實務應用",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，可於數位自學學程完成度頁面線上自行列印取得證書，並得向校方教務處申請微學程證書。"
+    }
+  },
+  {
+    "programName": "健康物聯網微學程",
+    "domain": "人工智慧領域",
+    "year": 111,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/健康物聯網微學程/健康物聯網微學程1112.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "感測器導論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "運動復原",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域2.0)-穿戴物聯應用與技術入門",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域2.0)-資訊技術基礎",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "健康物聯網趨勢與創新",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "創客數位設計",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "以微處理器建構健康物聯網",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "物聯網架構與程式寫作",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "健康物聯網實務應用",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
+    }
+  },
+  {
+    "programName": "健康科技應用微學程",
+    "domain": "未分類",
+    "year": 107,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/健康科技應用微學程/健康科技應用微學程1071.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "運動與營養",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "養氣方程式",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "生物感測器與實務",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程。本微學程規劃表中課程選修合計6學分以上者，即可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "健康科技應用微學程",
+    "domain": "未分類",
+    "year": 107,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/健康科技應用微學程/健康科技應用微學程1072.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "感測器導論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "運動與營養",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "養氣方程式",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "生物感測器與實務",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程。本微學程規劃表中課程選修合計6學分以上者，即可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "健康科技應用微學程",
+    "domain": "未分類",
+    "year": 108,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/健康科技應用微學程/健康科技應用微學程1081.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "感測器導論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "運動復原",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "養氣方程式",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "生物感測器與實務",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程。本微學程規劃表中課程選修合計6學分以上者，即可獲得由校方教務處出具之微學程證明。註：基礎有兩門，運動復原和感測器導論，選其中一門就可以。"
+    }
+  },
+  {
+    "programName": "健康科技應用物聯網微學程",
+    "domain": "未分類",
+    "year": 108,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/健康科技應用物聯網微學程/健康科技應用物聯網微學程1082.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "感測器導論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "運動與營養",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "生物感測器與實務",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "健康物聯網趨勢與創新",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "物聯網架構與程式寫作",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "健康物聯網實務應用",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "養氣方程式",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程。本微學程規劃表中課程選修合計6學分以上者，即可獲得由校方教務處出具之微學程證明。註：基礎有兩門，運動復原和感測器導論，選其中一門就可以。"
+    }
+  },
+  {
+    "programName": "健康科技應用物聯網微學程",
+    "domain": "未分類",
+    "year": 109,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/健康科技應用物聯網微學程/健康科技應用物聯網微學程1091.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "感測器導論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "運動與營養",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "生物感測器與實務",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "健康物聯網趨勢與創新",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "物聯網架構與程式寫作",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "健康物聯網實務應用",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "健康促進認知功能訓練",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "養氣方程式",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程。本微學程規劃表中課程選修合計6學分以上者，即可獲得由校方教務處出具之微學程證明。註：基礎有兩門，運動復原和感測器導論，選其中一門就可以。"
+    }
+  },
+  {
+    "programName": "創意創新微學程",
+    "domain": "未分類",
+    "year": 106,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/創意創新微學程/創意創新微學程1062.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "創意學",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "設計思考與創新思維",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "體驗設計",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "健康照護設計思考",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "智慧型創新系統構思與設計",
+        "credit": 3
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 1
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，核心及應用課程至少各需選修1門課。本微學程規劃表中課程選修合計6學分以上者，即可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "創意創新微學程",
+    "domain": "未分類",
+    "year": 107,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/創意創新微學程/創意創新微學程1071.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "創意學",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "平面設計與創意表達",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "健康照護設計思考",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "創新設計實務創作",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "智慧型創新系統構思與設計",
+        "credit": 3
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 1
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，核心及應用課程至少各需選修1門課。本微學程規劃表中課程選修合計6學分以上者，即可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "創意創新微學程",
+    "domain": "未分類",
+    "year": 107,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/創意創新微學程/創意創新微學程1072.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "設計導論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "創意學",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "平面設計與創意表達",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "健康照護設計思考",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "創新設計實務創作",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "智慧型創新系統構思與設計",
+        "credit": 3
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 1
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，核心及應用課程至少各需選修1門課。本微學程規劃表中課程選修合計6學分以上者，即可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "創意創新微學程",
+    "domain": "未分類",
+    "year": 108,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/創意創新微學程/創意創新微學程1081.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "設計導論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "創意學",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "平面設計與創意表達",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "創新的根源─移地學習與場域調查",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "醫學衛教新思維與創新實作",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "3D創作實境與應用",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "健康照護設計思考",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "創新設計實務創作",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "智慧型創新系統構思與設計",
+        "credit": 3
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 1
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，核心及應用課程至少各需選修1門課。本微學程規劃表中課程選修合計6學分以上者，即可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "創意創新微學程",
+    "domain": "未分類",
+    "year": 108,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/創意創新微學程/創意創新微學程1082.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "木工職人工作坊",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "設計導論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "創意學",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "平面設計與創意表達",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "創新的根源─移地學習與場域調查",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "醫學衛教新思維與創新實作",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "3D創作實境與應用",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "健康照護設計思考",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "創新設計實務創作",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "智慧型創新系統構思與設計",
+        "credit": 3
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 1
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，核心及應用課程至少各需選修1門課。本微學程規劃表中課程選修合計6學分以上者，即可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "創意創新微學程",
+    "domain": "未分類",
+    "year": 109,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/創意創新微學程/創意創新微學程1091.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "木工職人工作坊",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "設計思考",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "設計導論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "創意學",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "平面設計與創意表達",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "問題探索與創意思考",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "創新的根源─移地學習與場域調查",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "醫學衛教新思維與創新實作",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "創新設計實務創作",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "智慧型創新系統構思與設計",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "療設計與創新",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 1
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，核心及應用課程至少各需選修1門課。本微學程規劃表中課程選修合計6學分以上者，即可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "創意創新微學程",
+    "domain": "未分類",
+    "year": 109,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/創意創新微學程/創意創新微學程1092.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "3D熱熔與光固化列印機操作工作坊",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "Blender3D動畫製作工作坊",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "Blender3D基礎概念工作坊",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "WIX網頁設計入門工作坊",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "木工職人工作坊",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(創意1.0)-原型製作與設計",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(創意2.0)-UI設計概論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-破解創意代碼：發現想法",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域0.5)-創意創思x設計提案",
+        "credit": 0.5
+      },
+      {
+        "category": "核心",
+        "name": "服務設計概念與行動",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "創客數位設計",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "智齡設計(一)",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "產業需求轉譯跨領域探索創新",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "智慧型創新系統構思與設計",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "智齡設計(二)",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "驚人的奈米機器─病毒的聰明設計",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 7,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "1.凡本校學生皆可修習本學程。本學程需修習7學分，包含基礎、核心、應用課程，各需修習2學分。\n2.選修數位自學課程之學分總數不得超過2學分。\n3.本微學程規劃表中課程選修合計7學分以上者，即可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "創新設計微學程",
+    "domain": "未分類",
+    "year": 106,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/創新設計微學程/創新設計微學程1061.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "設計導論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "服務設計概念與行動",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "跨領域專題應用(一)",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "跨領域專題應用(二)",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "照顧者喘息據點營造實作：把照顧者找出來",
+        "credit": 3
+      },
+      {
+        "category": "應用",
+        "name": "輔具研發與行銷",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 1,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": true,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習 6 學分，包含基礎、核心、應用課程，核心課程至少需選修 1 門課。本微學程規劃表中課程選修合計6 學分以上者，即可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "創新設計微學程",
+    "domain": "未分類",
+    "year": 106,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/創新設計微學程/創新設計微學程1062.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "設計導論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "服務設計概念與行動",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "跨領域專題應用(一)",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "跨領域專題應用(二)",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "照顧者喘息據點營造實作：把照顧者找出來",
+        "credit": 3
+      },
+      {
+        "category": "應用",
+        "name": "輔具研發與行銷",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 1,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": true,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習 6 學分，包含基礎、核心、應用課程，核心課程至少需選修 1 門課。本微學程規劃表中課程選修合計6 學分以上者，即可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "創新設計微學程",
+    "domain": "未分類",
+    "year": 107,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/創新設計微學程/創新設計微學程1071.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "設計導論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "服務設計概念與行動",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "跨領域專題應用(一)",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "跨領域專題應用(二)",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "照顧者喘息據點營造實作：把照顧者找出來",
+        "credit": 3
+      },
+      {
+        "category": "應用",
+        "name": "輔具研發與行銷",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 1,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": true,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習 6 學分，包含基礎、核心、應用課程，核心課程至少需選修 1 門課。本微學程規劃表中課程選修合計6 學分以上者，即可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "創新設計微學程",
+    "domain": "未分類",
+    "year": 107,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/創新設計微學程/創新設計微學程1072.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "設計導論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "服務設計概念與行動",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "跨領域專題應用(一)",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "跨領域專題應用(二)",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "照顧者喘息據點營造實作：把照顧者找出來",
+        "credit": 3
+      },
+      {
+        "category": "應用",
+        "name": "輔具研發與行銷",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 1,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": true,
+        "應用": false
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習 6 學分，包含基礎、核心、應用課程，核心課程至少需選修 1 門課。本微學程規劃表中課程選修合計6 學分以上者，即可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "創新設計微學程",
+    "domain": "未分類",
+    "year": 108,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/創新設計微學程/創新設計微學程1081.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "創新的根源─移地學習與場域調查",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(創意1.0)-原型製作與設計",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(創意2.0)-UI設計概論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域0.5)-創新事業的教訓來自:自己",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-行動驅使的創業計畫:從「課堂」到世界",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-破解創意代碼：發現想法",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-從想法到創業",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "服務設計概念與行動",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "療設計與創新",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "食物設計",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "產業需求轉譯跨領域探索創新",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "智慧型創新系統構思與設計",
+        "credit": 3
+      },
+      {
+        "category": "應用",
+        "name": "橘色時尚",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "驚人的奈米機器─病毒的聰明設計",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 1,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": true,
+        "應用": false
+      },
+      "note": "1. 凡本校學生皆可修習本學程。本學程需修習 6 學分，包含基礎、核心、應用課程，核心課程至少需選修 1 門課。\n2. 選修數位自學課程之學分總數不得超過 2 學分。\n3. 本微學程規劃表中課程選修合計 6 學分以上者，即可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "創新設計微學程",
+    "domain": "未分類",
+    "year": 108,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/創新設計微學程/創新設計微學程1082.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "3D建模及光固化列印工作坊",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "3D建模及熱熔擠成型列印工作坊",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "Blender3D動畫製作工作坊",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "Blender3D基礎概念工作坊",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "WIX網頁設計入門工作坊",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "木工職人工作坊",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "創新的根源─移地學習與場域調查",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(創意1.0)-原型製作與設計",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(創意2.0)-UI設計概論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域0.5)-創新事業的教訓來自:自己",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-行動驅使的創業計畫:從「課堂」到世界",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-破解創意代碼：發現想法",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-從想法到創業",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "服務設計概念與行動",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "智齡設計(一)",
+        "credit": 4
+      },
+      {
+        "category": "核心",
+        "name": "療設計與創新",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "食物設計",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "國際跨領域創新見習",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "產業需求轉譯跨領域探索創新",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "智慧型創新系統構思與設計",
+        "credit": 3
+      },
+      {
+        "category": "應用",
+        "name": "智齡設計(二)",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "橘色時尚",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "驚人的奈米機器─病毒的聰明設計",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 7,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 1,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": true,
+        "應用": false
+      },
+      "note": "1. 凡本校學生皆可修習本學程。本學程需修習 7 學分，包含基礎、核心、應用課程，核心課程至少需選修 1 門課。\n2. 選修數位自學課程之學分總數不得超過 2 學分。\n3. 本微學程規劃表中課程選修合計 7 學分以上者，即可獲得由校方教務處出具之微學程證明。\n4. 選修工作坊(課程說明欄位加註[工作坊])課程之學分總數不得超過 1 學分，超過則不計於微學程總學分內。"
+    }
+  },
+  {
+    "programName": "創新設計微學程",
+    "domain": "未分類",
+    "year": 109,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/創新設計微學程/創新設計微學程1091.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "3D建模及光固化列印工作坊",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "3D建模及熱熔擠成型列印工作坊",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "Blender3D動畫製作工作坊",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "Blender3D基礎概念工作坊",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "WIX網頁設計入門工作坊",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "木工職人工作坊",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "創新的根源─移地學習與場域調查",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(創意1.0)-原型製作與設計",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(創意2.0)-UI設計概論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域0.5)-創新事業的教訓來自:自己",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-行動驅使的創業計畫:從「課堂」到世界",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-破解創意代碼：發現想法",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-從想法到創業",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域0.5)-創意創思x設計提案",
+        "credit": 0.5
+      },
+      {
+        "category": "核心",
+        "name": "服務設計概念與行動",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "創客數位設計",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "智齡設計(一)",
+        "credit": 4
+      },
+      {
+        "category": "核心",
+        "name": "療設計與創新",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "食物設計",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "產業需求轉譯跨領域探索創新",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "智慧型創新系統構思與設計",
+        "credit": 3
+      },
+      {
+        "category": "應用",
+        "name": "智齡設計(二)",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "橘色時尚",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "驚人的奈米機器─病毒的聰明設計",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 7,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 1,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": true,
+        "應用": false
+      },
+      "note": "1. 凡本校學生皆可修習本學程。本學程需修習 7 學分，包含基礎、核心、應用課程，核心課程至少需選修 1 門課。\n2. 選修數位自學課程之學分總數不得超過 2 學分。\n3. 本微學程規劃表中課程選修合計 7 學分以上者，即可獲得由校方教務處出具之微學程證明。\n4. 選修工作坊(課程說明欄位加註[工作坊])課程之學分總數不得超過 1 學分，超過則不計於微學程總學分內。"
+    }
+  },
+  {
+    "programName": "創新醫療設計微學程",
+    "domain": "創新創業領域",
+    "year": 110,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/創新醫療設計微學程/創新醫療設計微學程1101.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "3D熱熔與光固化列印機操作工作坊",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "WIX網頁設計入門工作坊",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "木工職人工作坊",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(創意1.0)-原型製作與設計",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(創意2.0)-UI設計概論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-破解創意代碼：發現想法",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域0.5)-創意創思x設計提案",
+        "credit": 0.5
+      },
+      {
+        "category": "核心",
+        "name": "生物設計流程",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "創客數位設計",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "產業需求轉譯跨領域探索創新",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "驚人的奈米機器─病毒的聰明設計",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，各需修習2學分。本微學程規劃表中課程選修合6學分以上者，即可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "創新醫療設計微學程",
+    "domain": "創新創業領域",
+    "year": 110,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/創新醫療設計微學程/創新醫療設計微學程1102.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "3D熱熔與光固化列印機操作工作坊",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "WIX網頁設計入門工作坊",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "木工職人工作坊",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(創意1.0)-原型製作與設計",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(創意2.0)-UI設計概論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-破解創意代碼：發現想法",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域0.5)-創意創思x設計提案",
+        "credit": 0.5
+      },
+      {
+        "category": "核心",
+        "name": "生物設計流程",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "創客數位設計",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "產業需求轉譯跨領域探索創新",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "驚人的奈米機器─病毒的聰明設計",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，各需修習2學分。本微學程規劃表中課程選修合6學分以上者，即可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "創新醫療設計微學程",
+    "domain": "創新創業領域",
+    "year": 111,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/創新醫療設計微學程/創新醫療設計微學程1111.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "3D熱熔與光固化列印機操作工作坊",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "WIX網頁設計入門工作坊",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(創意1.0)-原型製作與設計",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(創意2.0)-UI設計概論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-破解創意代碼：發現想法",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域0.5)-創意創思x設計提案",
+        "credit": 0.5
+      },
+      {
+        "category": "核心",
+        "name": "人因工程",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "生物設計流程",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "創客數位設計",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "Biodesign臨床需求探索",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "驚人的奈米機器─病毒的聰明設計",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，各需修習2學分。本微學程規劃表中課程選修合6學分以上者，即可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "創新醫療設計微學程",
+    "domain": "創新創業領域",
+    "year": 111,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/創新醫療設計微學程/創新醫療設計微學程1112.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "3D熱熔與光固化列印機操作工作坊",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "WIX網頁設計入門工作坊",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(創意1.0)-原型製作與設計",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(創意2.0)-UI設計概論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-破解創意代碼：發現想法",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域0.5)-創意創思x設計提案",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "醫學影像系統原理",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "人因工程",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "生物設計流程",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "創客數位設計",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "Biodesign臨床需求探索",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "醫學影像重建及3D列印技術",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "驚人的奈米機器─病毒的聰明設計",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，各需修習2學分。本微學程規劃表中課程選修合6學分以上者，得取得本微學程。"
+    }
+  },
+  {
+    "programName": "創新醫療設計微學程",
+    "domain": "創新創業領域",
+    "year": 112,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/創新醫療設計微學程/創新醫療設計微學程1121.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "3D熱熔與光固化列印機操作工作坊",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "WIX網頁設計入門工作坊",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(創意1.0)-原型製作與設計",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(創意2.0)-UI設計概論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-破解創意代碼：發現想法",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域0.5)-創意創思x設計提案",
+        "credit": 0.5
+      },
+      {
+        "category": "核心",
+        "name": "Biodesign臨床需求探索工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "人因工程",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "創客數位設計",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "驚人的奈米機器─病毒的聰明設計",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "Biodesign臨床需求洞察與創新應用",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "醫學影像重建及3D列印技術",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少需包含應用課程2學分者，得取得本微學程。"
+    }
+  },
+  {
+    "programName": "創新醫療設計微學程",
+    "domain": "創新創業領域",
+    "year": 112,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/創新醫療設計微學程/創新醫療設計微學程1122.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "3D熱熔與光固化列印機操作工作坊",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "WIX網頁設計入門工作坊",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(創意1.0)-原型製作與設計",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(創意2.0)-UI設計概論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-破解創意代碼：發現想法",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域0.5)-創意創思x設計提案",
+        "credit": 0.5
+      },
+      {
+        "category": "核心",
+        "name": "Biodesign臨床需求探索工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "人因工程",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "創客數位設計",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "驚人的奈米機器─病毒的聰明設計",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "Biodesign臨床需求洞察與創新應用",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "醫學影像重建及3D列印技術",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少需包含應用課程2學分者，得取得本微學程。"
+    }
+  },
+  {
     "programName": "創新醫療設計微學程",
     "domain": "創新創業領域",
     "year": 113,
@@ -12724,6 +15093,563 @@
     }
   },
   {
+    "programName": "智慧生醫微學程",
+    "domain": "人工智慧領域",
+    "year": 109,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/智慧生醫微學程/智慧生醫微學程1092.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "E療bot基礎工作坊",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "不抖湯匙基礎工作坊",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "醫(e)起玩樂高基礎工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "音樂撩人心進階工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "創意e起來進階工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "醫療e起Pi進階工作坊",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "智慧生醫專題實作進階工作坊",
+        "credit": 1
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": 1
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心、應用至少必修1學分。本微學程規劃表中課程選修合計6學分以上者，即可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "智慧生醫微學程",
+    "domain": "人工智慧領域",
+    "year": 110,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/智慧生醫微學程/智慧生醫微學程1101.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "E療bot基礎工作坊",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "不抖湯匙基礎工作坊",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "醫(e)起玩樂高基礎工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "AI智慧醫療工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "音樂撩人心進階工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "創意e起來進階工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "醫療e起Pi進階工作坊",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "智慧生醫專題實作進階工作坊",
+        "credit": 1
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": 1
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心、應用至少必修1學分。本微學程規劃表中課程選修合計6學分以上者，可於數位自學學程完成度頁面線上自行列印取得證書，並得向校方教務處申請微學程證書。"
+    }
+  },
+  {
+    "programName": "智慧生醫微學程",
+    "domain": "人工智慧領域",
+    "year": 110,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/智慧生醫微學程/智慧生醫微學程1102.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "E療bot基礎工作坊",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "不抖湯匙基礎工作坊",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "醫(e)起玩樂高基礎工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "AI智慧醫療工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "音樂撩人心進階工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "創意e起來進階工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "醫療e起Pi進階工作坊",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "智慧生醫專題實作進階工作坊",
+        "credit": 1
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": 1
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心、應用至少必修1學分。本微學程規劃表中課程選修合計6學分以上者，可於數位自學學程完成度頁面線上自行列印取得證書，並得向校方教務處申請微學程證書。"
+    }
+  },
+  {
+    "programName": "智慧生醫微學程",
+    "domain": "人工智慧領域",
+    "year": 111,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/智慧生醫微學程/智慧生醫微學程1111.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "E療bot基礎工作坊",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "不抖湯匙基礎工作坊",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "精準醫學檢驗導論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "醫(e)起玩樂高基礎工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "AI智慧醫療工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "音樂撩人心進階工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "創意e起來進階工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "醫療e起Pi進階工作坊",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "智慧生醫專題實作進階工作坊",
+        "credit": 1
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": 1
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心、應用至少必修1學分。本微學程規劃表中課程選修合計6學分以上者，可於數位自學學程完成度頁面線上自行列印取得證書，並得向校方教務處申請微學程證書。"
+    }
+  },
+  {
+    "programName": "智慧生醫微學程",
+    "domain": "人工智慧領域",
+    "year": 111,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/智慧生醫微學程/智慧生醫微學程1112.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "E療bot基礎工作坊",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "不抖湯匙基礎工作坊",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "精準醫學檢驗導論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "醫(e)起玩樂高基礎工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "AI智慧醫療工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "音樂撩人心進階工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "創意e起來進階工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "醫療e起Pi進階工作坊",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "智慧生醫專題實作進階工作坊",
+        "credit": 1
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": 1
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心、應用至少必修1學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
+    }
+  },
+  {
+    "programName": "智慧跨域實務微學程",
+    "domain": "人工智慧領域",
+    "year": 112,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/智慧跨域實務微學程/智慧跨域實務微學程1121.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "Arduino基礎實作-整合電子元件及感測器",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "互動程式設計",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "樹莓派基礎實作-整合電子元件及感測器",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "醫學設計思考",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "健康照護物聯網實務應用",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "樹莓派及Arduino專案應用",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "以微處理器建構健康物聯網",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "智慧生醫進階專題實作",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 8,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習8學分，包含基礎、核心、應用課程，核心、應用各需修習2學分。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。"
+    }
+  },
+  {
+    "programName": "智慧跨域實務微學程",
+    "domain": "人工智慧領域",
+    "year": 112,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/智慧跨域實務微學程/智慧跨域實務微學程1122.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "C++程式設計工作坊",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "基礎程式設計",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "醫學設計思考",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "Arduino基礎實作-整合電子元件及感測器",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "健康照護物聯網實務應用",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "樹莓派基礎實作-整合電子元件及感測器",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "智慧生醫進階專題實作",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "樹莓派及Arduino專案應用",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 8,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": 4,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習8學分，包含基礎、核心、應用課程，核心需修習4學分、應用需修習2學分。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。"
+    }
+  },
+  {
+    "programName": "智慧跨域實務微學程",
+    "domain": "人工智慧領域",
+    "year": 113,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/智慧跨域實務微學程/智慧跨域實務微學程1131.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "C++程式設計工作坊",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "基礎程式設計",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "醫學設計思考",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "Arduino基礎實作-整合電子元件及感測器",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "健康照護物聯網實務應用",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "樹莓派基礎實作-整合電子元件及感測器",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "智慧生醫進階專題實作",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "樹莓派及Arduino專案應用",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 8,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": 4,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": true,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習8學分，包含基礎、核心、應用課程，核心需修習4學分、應用需修習2學分。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。"
+    }
+  },
+  {
     "programName": "智慧跨域實務微學程",
     "domain": "人工智慧領域",
     "year": 113,
@@ -15639,6 +18565,316 @@
     }
   },
   {
+    "programName": "知識探勘與管理微學程",
+    "domain": "未分類",
+    "year": 106,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/知識探勘與管理微學程/知識探勘與管理微學程1061.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "學習理論與實務",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "自然語言處理與文字探勘技術",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "大數據之管理決策",
+        "credit": 3
+      }
+    ],
+    "requirements": {
+      "totalCredits": 7,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": 7,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": true,
+        "應用": false
+      },
+      "note": "同學需修畢三門核心課程「自然語言處理與文字探勘技術」、「大數據之管理決策」、「學習理論與實務」共 7 學分。"
+    }
+  },
+  {
+    "programName": "知識探勘與管理微學程",
+    "domain": "未分類",
+    "year": 106,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/知識探勘與管理微學程/知識探勘與管理微學程1062.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "學習理論與實務",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "自然語言處理與文字探勘技術",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "大數據之管理決策",
+        "credit": 3
+      }
+    ],
+    "requirements": {
+      "totalCredits": 7,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": 7,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": true,
+        "應用": false
+      },
+      "note": "同學需修畢三門核心課程「自然語言處理與文字探勘技術」、「大數據之管理決策」、「學習理論與實務」共 7 學分。"
+    }
+  },
+  {
+    "programName": "社會參與微學程",
+    "domain": "未分類",
+    "year": 110,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/社會參與微學程/社會參與微學程1102.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-社會企業概論",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-社會創新行動家",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-影響力投資",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "食物相對論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "食物設計",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "饗食文化",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "社會企業實務",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "社會處方箋",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，可於數位自學學程完成度頁面上自行列印取得證書，並得向校方教務處申請微學程證書。"
+    }
+  },
+  {
+    "programName": "社會參與微學程",
+    "domain": "未分類",
+    "year": 111,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/社會參與微學程/社會參與微學程1111.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-社會企業概論",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-社會創新行動家",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-社會影響力評估與管理",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-影響力投資",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "食物相對論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "食物設計",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "饗食文化",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "社會企業實務",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "社會處方箋",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，可於數位自學學程完成度頁面上自行列印取得證書，並得向校方教務處申請微學程證書。"
+    }
+  },
+  {
+    "programName": "社會參與微學程",
+    "domain": "未分類",
+    "year": 111,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/社會參與微學程/社會參與微學程1112.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-社會企業概論",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-社會創新行動家",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-社會影響力評估與管理",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-影響力投資",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-藝術治療入門",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "食物相對論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "食物設計",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "饗食文化",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "社會企業實務",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "社會處方箋",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
+    }
+  },
+  {
     "programName": "社會處方箋微學程",
     "domain": "永續發展領域",
     "year": 113,
@@ -16151,6 +19387,1134 @@
   {
     "programName": "程式設計微學程",
     "domain": "人工智慧領域",
+    "year": 106,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/程式設計微學程/程式設計微學程1061.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "基礎程式設計",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "Python與資料科學概論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "多媒體設計",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "運算思維與程式設計概論",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": 2,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": false,
+        "應用": false
+      },
+      "note": "本學程需修習「基礎程式設計」（2 學分）、「運算思維與程式設計概論」與「Python 與資料科學概論」二選一（2 學分）及「多媒體設計」（2 學分），共 6 學分。"
+    }
+  },
+  {
+    "programName": "程式設計微學程",
+    "domain": "人工智慧領域",
+    "year": 106,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/程式設計微學程/程式設計微學程1062.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "基礎程式設計",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "Python與資料科學概論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "多媒體設計",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "運算思維與程式設計概論",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": 2,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": false,
+        "應用": false
+      },
+      "note": "本學程需修習「基礎程式設計」（2 學分）、「運算思維與程式設計概論」與「Python 與資料科學概論」二選一（2 學分）及「多媒體設計」（2 學分），共 6 學分。"
+    }
+  },
+  {
+    "programName": "程式設計微學程",
+    "domain": "人工智慧領域",
+    "year": 107,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/程式設計微學程/程式設計微學程1071.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "基礎程式設計",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "Python與資料科學概論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "多媒體設計",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "運算思維與程式設計概論",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": 2,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": false,
+        "應用": false
+      },
+      "note": "本學程需修習「基礎程式設計」（2 學分）、「運算思維與程式設計概論」與「Python 與資料科學概論」二選一（2 學分）及「多媒體設計」（2 學分），共 6 學分。"
+    }
+  },
+  {
+    "programName": "程式設計微學程",
+    "domain": "人工智慧領域",
+    "year": 107,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/程式設計微學程/程式設計微學程1072.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "基礎程式設計",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "Python與資料科學概論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "多媒體設計",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "運算思維與程式設計概論",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": 2,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": false,
+        "應用": false
+      },
+      "note": "本學程需修習「基礎程式設計」（2 學分）、「運算思維與程式設計概論」與「Python 與資料科學概論」二選一（2 學分）及「多媒體設計」（2 學分），共 6 學分。"
+    }
+  },
+  {
+    "programName": "程式設計微學程",
+    "domain": "人工智慧領域",
+    "year": 108,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/程式設計微學程/程式設計微學程1081.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "健康資訊科技與法律",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "Python與資料科學概論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "基礎程式設計"
+      },
+      {
+        "category": "核心",
+        "name": "運算思維與程式設計概論",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": 2,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": false,
+        "應用": false
+      },
+      "note": "本學程需修習「基礎程式設計」（2 學分）、「運算思維與程式設計概論」與「Python 與資料科學概論」二選一（2 學分）及「多媒體設計」（2 學分），共 6 學分。"
+    }
+  },
+  {
+    "programName": "程式設計微學程",
+    "domain": "人工智慧領域",
+    "year": 108,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/程式設計微學程/程式設計微學程1082.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "基礎程式設計",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "Python與資料科學概論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "多媒體設計",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "運算思維與程式設計概論",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": 2,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": false,
+        "應用": false
+      },
+      "note": "本學程需修習「基礎程式設計」（2 學分）、「運算思維與程式設計概論」與「Python 與資料科學概論」二選一（2 學分）及「多媒體設計」（2 學分），共 6 學分。"
+    }
+  },
+  {
+    "programName": "程式設計微學程",
+    "domain": "人工智慧領域",
+    "year": 109,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/程式設計微學程/程式設計微學程1091.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "基礎程式設計",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域0.5)-成為Python數據分析達人的第一堂課",
+        "credit": 0.5
+      },
+      {
+        "category": "核心",
+        "name": "Python與資料科學概論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "運算思維與程式設計概論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(跨領域0.5)-邏輯思考應用：Python程式設計入門",
+        "credit": 0.5
+      },
+      {
+        "category": "應用",
+        "name": "互動媒體程式設計",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "多媒體設計",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域2.0)-SAS程式入門",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程需修習6學分，包含基礎、核心、應用課程至少各修習2學分。\n\n(1) 基礎類可供修習的課程為「基礎程式設計」（2學分）、「成為Python數據分析達人的第一堂課」（0.5學分）、「資訊技術基礎」(2學分)。\n(2) 核心類可供修習的課程為「Python與資料科學概論」（2學分）、「運算思維與程式設計概論」（2學分）、「邏輯思考應用：Python程式設計入門」（0.5學分）。\n(3) 應用類可供修習的課程為「互動媒體科技」（2學分）、「Getting Started with SAS Programming」（2學分）、「數位教學設計專案」(2學分)。"
+    }
+  },
+  {
+    "programName": "程式設計微學程",
+    "domain": "人工智慧領域",
+    "year": 109,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/程式設計微學程/程式設計微學程1092.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "基礎程式設計",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "資訊技術基礎",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域0.5)-成為Python數據分析達人的第一堂課",
+        "credit": 0.5
+      },
+      {
+        "category": "核心",
+        "name": "Python與資料科學概論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "運算思維與程式設計概論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(跨領域0.5)-邏輯思考應用：Python程式設計入門",
+        "credit": 0.5
+      },
+      {
+        "category": "應用",
+        "name": "互動媒體科技",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(公衛2.0)-SAS程式入門",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域2.0)-SAS程式入門",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "數位教學設計專案",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程需修習6學分，包含基礎、核心、應用課程至少各修習2學分。\n\n(1) 基礎類可供修習的課程為「基礎程式設計」（2學分）、「成為Python數據分析達人的第一堂課」（0.5學分）、「資訊技術基礎」(2學分)。\n(2) 核心類可供修習的課程為「Python與資料科學概論」（2學分）、「運算思維與程式設計概論」（2學分）、「邏輯思考應用：Python程式設計入門」（0.5學分）。\n(3) 應用類可供修習的課程為「互動媒體科技」（2學分）、「Getting Started with SAS Programming」（2學分）、「數位教學設計專案」(2學分)。"
+    }
+  },
+  {
+    "programName": "程式設計微學程",
+    "domain": "人工智慧領域",
+    "year": 110,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/程式設計微學程/程式設計微學程1101.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "基礎程式設計",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域0.5)-成為Python數據分析達人的第一堂課",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域2.0)-資訊技術基礎",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "Python與資料科學概論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "運算思維與程式設計概論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(跨領域0.5)-邏輯思考應用：Python程式設計入門",
+        "credit": 0.5
+      },
+      {
+        "category": "應用",
+        "name": "互動媒體科技",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "音樂撩人心進階工作坊",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "創意e起來進階工作坊",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "醫療e起Pi進階工作坊",
+        "credit": 1
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程需修習6學分，包含基礎、核心、應用課程至少各修習2學分。本微學程規劃表中課程選修合計6學分以上者，可於數位自學學程完成度頁面線上自行列印取得證書，並得向校方教務處申請微學程證書。"
+    }
+  },
+  {
+    "programName": "程式設計微學程",
+    "domain": "人工智慧領域",
+    "year": 110,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/程式設計微學程/程式設計微學程1102.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "基礎程式設計",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域0.5)-成為Python數據分析達人的第一堂課",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域2.0)-資訊技術基礎",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "Python與資料科學概論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "運算思維與程式設計概論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(跨領域0.5)-邏輯思考應用：Python程式設計入門",
+        "credit": 0.5
+      },
+      {
+        "category": "應用",
+        "name": "互動媒體科技",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "音樂撩人心進階工作坊",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "創意e起來進階工作坊",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "醫療e起Pi進階工作坊",
+        "credit": 1
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程需修習6學分，包含基礎、核心、應用課程至少各修習2學分。本微學程規劃表中課程選修合計6學分以上者，可於數位自學學程完成度頁面線上自行列印取得證書，並得向校方教務處申請微學程證書。"
+    }
+  },
+  {
+    "programName": "程式設計微學程",
+    "domain": "人工智慧領域",
+    "year": 111,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/程式設計微學程/程式設計微學程1111.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "基礎程式設計",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "C++程式設計工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "Python與資料科學概論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "程式黑客松",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "運算思維與程式設計概論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(大數據所1.0)-Python數據分析",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "互動媒體科技",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "音樂撩人心進階工作坊",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "創意e起來進階工作坊",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "醫療e起Pi進階工作坊",
+        "credit": 1
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程需修習6學分，包含基礎、核心、應用課程至少各修習2學分。本微學程規劃表中課程選修合計6學分以上者，可於數位自學學程完成度頁面線上自行列印取得證書，並得向校方教務處申請微學程證書。"
+    }
+  },
+  {
+    "programName": "程式設計微學程",
+    "domain": "人工智慧領域",
+    "year": 111,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/程式設計微學程/程式設計微學程1112.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "基礎程式設計",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "C++程式設計工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "Python與資料科學概論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "程式黑客松",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "運算思維與程式設計概論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(大數據所1.0)-Python數據分析",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "互動媒體科技",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "音樂撩人心進階工作坊",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "創意e起來進階工作坊",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "醫療e起Pi進階工作坊",
+        "credit": 1
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程需修習6學分，包含基礎、核心、應用課程至少各修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
+    }
+  },
+  {
+    "programName": "程式設計微學程",
+    "domain": "人工智慧領域",
+    "year": 112,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/程式設計微學程/程式設計微學程1121.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "基礎程式設計",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "C++程式設計工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "Python與資料科學概論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "基礎資料結構與演算法",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "程式黑客松",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "運算思維與程式設計概論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(大數據所1.0)-Python數據分析",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "互動媒體科技",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "樹莓派及Arduino專案應用",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程需修習6學分，包含基礎、核心、應用課程至少各修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。"
+    }
+  },
+  {
+    "programName": "程式設計微學程",
+    "domain": "人工智慧領域",
+    "year": 112,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/程式設計微學程/程式設計微學程1122.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "基礎程式設計",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "R與資料分析",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "基礎資料結構與演算法",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "運算思維與程式設計實作",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(大數據所1.0)-Python數據分析",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(大數據所1.0)-Python資料結構",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(公衛1.0)-Python數據結構",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(科學2.0)-演算法-1",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(跨領域2.0)-運用python理解資料視覺化",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "機電整合初體驗-樂高輪型機器人競技工作坊",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "Python與資料科學應用",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "互動程式設計",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "程式黑客松",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程需修習6學分，包含基礎、核心、應用課程至少各修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。參與清大培育電資專業醫學生，需修畢以下4門清大專班基礎課程：邏輯設計、計算機程式設計、資料結構、線性代數，並取得該課程及格成績者，才得認列本微學程。"
+    }
+  },
+  {
+    "programName": "程式設計微學程",
+    "domain": "人工智慧領域",
+    "year": 113,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/程式設計微學程/程式設計微學程1131.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "基礎程式設計",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "R與資料分析",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "基礎資料結構與演算法",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "運算思維與程式設計實作",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(大數據所1.0)-Python數據分析",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(大數據所1.0)-Python資料結構",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(公衛1.0)-Python數據結構",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(科學2.0)-演算法-1",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(跨領域2.0)-運用python理解資料視覺化",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "機電整合初體驗-樂高輪型機器人競技工作坊",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "Python與資料科學應用",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "互動程式設計",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "程式黑客松",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程需修習6學分，包含基礎、核心、應用課程至少各修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。參與清大培育電資專業醫學生，需修畢以下4門清大專班基礎課程：邏輯設計、計算機程式設計、資料結構、線性代數，並取得該課程及格成績者，才得認列本微學程。"
+    }
+  },
+  {
+    "programName": "程式設計微學程",
+    "domain": "人工智慧領域",
+    "year": 113,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/程式設計微學程/程式設計微學程1132.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "基礎程式設計",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "R與資料分析",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "基礎資料結構與演算法",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(大數據所1.0)-Python數據分析",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(大數據所1.0)-Python資料結構",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(公衛1.0)-Python數據結構",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(科學2.0)-演算法-1",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(跨領域1.0)-Python互動程式導論1",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(跨領域1.0)-Python互動程式導論2",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(跨領域1.0)-Python推論統計分析",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(跨領域1.0)-Python資料視覺化",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(跨領域2.0)-運用python理解資料視覺化",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(藥學院3.0)-Python資料科學簡介",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "機電整合初體驗-樂高輪型機器人競技工作坊",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "互動程式設計",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "程式黑客松",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程需修習6學分，包含基礎、核心、應用課程至少各修習2學分。本微學程規劃表中課程選修合計6學分以上者，得取得本微學程。參與清大培育電資專業醫學生，需修畢以下4門清大專班基礎課程：邏輯設計、計算機程式設計、資料結構、線性代數，並取得該課程及格成績者，才得認列本微學程。"
+    }
+  },
+  {
+    "programName": "程式設計微學程",
+    "domain": "人工智慧領域",
     "year": 114,
     "semester": "第一學期",
     "type": "微學程",
@@ -16513,6 +20877,534 @@
         "應用": true
       },
       "note": "本學程需修習8學分，包含基礎、核心、應用課程至少各修習2學分，其餘學分則可在本微學程規劃基礎、核心、應用課程裡修習。本微學程規劃表中課程選修合計8學分以上者，得取得本微學程。參與清大培育電資專業醫學生，需修畢以下4門清大專班基礎課程：邏輯設計、計算機程式設計、資料結構、線性代數，並取得該課程及格成績者，才得認列本微學程。"
+    }
+  },
+  {
+    "programName": "精準健康產業微學程",
+    "domain": "創新創業領域",
+    "year": 112,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/精準健康產業微學程/精準健康產業微學程1121.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "精準醫學檢驗導論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "精準醫療健康大數據",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "醫學影像系統原理",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "生醫轉譯與商業化",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "智慧輔助科技於健康福祉之應用工作坊",
+        "credit": 0.5
+      },
+      {
+        "category": "核心",
+        "name": "精準醫療健康下Bio-ICT的發展",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "藥動起來：新藥設計與開發",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "國際跨領域創新見習",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "創新創業專案實作",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "就是藥新創：藥物研發專案實作",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少需包含應用課程2學分者，得取得本微學程。"
+    }
+  },
+  {
+    "programName": "精準健康產業微學程",
+    "domain": "創新創業領域",
+    "year": 112,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/精準健康產業微學程/精準健康產業微學程1122.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "精準醫學檢驗導論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "精準醫療健康大數據",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "醫學影像系統原理",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "生技醫藥產業經營與法律",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "生醫轉譯與商業化",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "智慧輔助科技於健康福祉之應用工作坊",
+        "credit": 0.5
+      },
+      {
+        "category": "核心",
+        "name": "精準醫療健康下Bio-ICT的發展",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "藥動起來：新藥設計與開發",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "國際跨領域創新見習",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "創新創業專案實作",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "就是藥新創：藥物研發專案實作",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少需包含應用課程2學分者，得取得本微學程。"
+    }
+  },
+  {
+    "programName": "精準健康產業微學程",
+    "domain": "創新創業領域",
+    "year": 113,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/精準健康產業微學程/精準健康產業微學程1131.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "精準醫學檢驗導論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "精準醫療健康大數據",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-健康照護產業的智慧財產",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "醫學影像系統原理",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "生技醫藥產業經營與法律",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "生醫大數據與精準健康",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "生醫轉譯與商業化",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "智慧科技應用於高齡照護與復健",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "國際跨領域創新見習",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "創新創業專案實作",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "精準健康產業實務學習",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少需包含應用課程2學分者，得取得本微學程。"
+    }
+  },
+  {
+    "programName": "精準健康產業微學程",
+    "domain": "創新創業領域",
+    "year": 113,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/精準健康產業微學程/精準健康產業微學程1132.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "精準醫學檢驗導論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "精準醫療健康大數據",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-健康照護產業的智慧財產",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "醫學影像系統原理",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "生技醫藥產業經營與法律",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "生醫大數據與精準健康",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "生醫轉譯與商業化",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "智慧科技應用於高齡照護與復健",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "精準健康產業實務學習",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少需包含應用課程2學分者，得取得本微學程。"
+    }
+  },
+  {
+    "programName": "精準健康產業微學程",
+    "domain": "創新創業領域",
+    "year": 114,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/精準健康產業微學程/精準健康產業微學程1141.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "精準醫學檢驗導論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "精準醫療健康大數據",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-健康照護產業的智慧財產",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "醫學影像系統原理",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "生技醫藥產業經營與法律",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "生醫大數據與精準健康",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "生醫轉譯與商業化",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "精準健康產業實務學習",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少需包含應用課程2學分者，得取得本微學程。"
+    }
+  },
+  {
+    "programName": "精準健康產業微學程",
+    "domain": "創新創業領域",
+    "year": 114,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/精準健康產業微學程/精準健康產業微學程1142.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "精準醫學檢驗導論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "精準醫療健康大數據",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-健康照護產業的智慧財產",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "醫學影像系統原理",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "生技醫藥產業經營與法律",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "生醫大數據與精準健康",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "生醫轉譯與商業化",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "精準健康產業實務學習",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少需包含應用課程2學分者，得取得本微學程。"
+    }
+  },
+  {
+    "programName": "精準健康產業微學程",
+    "domain": "創新創業領域",
+    "year": 115,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/精準健康產業微學程/精準健康產業微學程1151.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "精準醫學檢驗導論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "精準醫療健康大數據",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-健康照護產業的智慧財產",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "醫學影像系統原理",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "生技醫藥產業經營與法律",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "生醫大數據與精準健康",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "生醫轉譯與商業化",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "精準健康產業實務學習",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，學生可自行從本微學程規劃表中修讀所需課程，凡選修本微學程開設課程合計達6學分以上，且修習課程中至少需包含應用課程2學分者，得取得本微學程。"
     }
   },
   {
@@ -23014,6 +27906,1441 @@
         "應用": true
       },
       "note": "本學程為臺北醫學大學與國立臺北科技大學共同開發設立之跨校微學程課程，凡兩校學生皆可跨校選修本學程規劃表所列課程。本學程需修習8學分，包含基礎、核心、應用課程需至少各需選修2學分。本校學生於本學程規劃表中，課程選修合計8學分以上者，得取得本微學程。"
+    }
+  },
+  {
+    "programName": "輔助科技跨域微學程",
+    "domain": "創新創業領域",
+    "year": 107,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/輔助科技跨域微學程/輔助科技跨域微學程1072.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "使用者經驗",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "輔助科技導論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "應用生物力學",
+        "credit": 3
+      },
+      {
+        "category": "基礎",
+        "name": "醫電工程概論",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "人工智慧",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "人因工程",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "人體姿勢與動作分析",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "生醫材料之臨床應用",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "生醫材料導論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "感測器導論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "電腦輔助設計與製造",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "生醫材料商品化流程",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "創新設計與智慧輔具",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "醫療電子應用設計專題",
+        "credit": 3
+      }
+    ],
+    "requirements": {
+      "totalCredits": 8,
+      "minCoursesPerCategory": {
+        "基礎": 1,
+        "核心": 1,
+        "應用": 1
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程為臺北醫學大學與國立台北科技大學共同開發設立之跨校微學程課程，凡兩校學生皆可跨校選修本學程規劃表所列課程。本學程需修習 8 學分，包含基礎、核心、應用課程需至少各選修 1 門課。本校學生於本學程規劃表中，課程選修合計 8 學分以上者，即可獲得由本校跨領域學院出具之微學程證明(本辦法經本校課程委員會通過後公告施行；修正時亦同。若有 任何事項與本校相關法規有異，將以本校相關法規為基準)。"
+    }
+  },
+  {
+    "programName": "輔助科技跨域微學程",
+    "domain": "創新創業領域",
+    "year": 108,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/輔助科技跨域微學程/輔助科技跨域微學程1081.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "3D建模及光固化列印工作坊",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "3D建模及熱熔擠成型列印工作坊",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "使用者經驗",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "輔助科技導論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "應用生物力學",
+        "credit": 3
+      },
+      {
+        "category": "基礎",
+        "name": "醫電工程概論",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "人工智慧",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "人因工程",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "人體姿勢與動作分析",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "生醫材料之臨床應用",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "生醫材料導論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "感測器導論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "電腦輔助設計與製造",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "生醫材料商品化流程",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "創新設計與智慧輔具",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "醫療電子應用設計專題",
+        "credit": 3
+      }
+    ],
+    "requirements": {
+      "totalCredits": 8,
+      "minCoursesPerCategory": {
+        "基礎": 1,
+        "核心": 1,
+        "應用": 1
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程為臺北醫學大學與國立台北科技大學共同開發設立之跨校微學程課程，凡兩校學生皆可跨校選修本學程規劃表所列課程。本學程需修習 8 學分，包含基礎、核心、應用課程需至少各選修 1 門課(不含工作坊課程)。 本校學生於本學程規劃表中，課程選修合計 8 學分以上者，即可獲得由本校 跨領域學院出具之微學程證明(本辦法經本校課程委員會通過後公告施行；修正時亦同。若有任何事項與本校相關法規有異，將以本校相關法規為基準)。"
+    }
+  },
+  {
+    "programName": "輔助科技跨域微學程",
+    "domain": "創新創業領域",
+    "year": 108,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/輔助科技跨域微學程/輔助科技跨域微學程1082.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "3D建模及光固化列印工作坊",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "3D建模及熱熔擠成型列印工作坊",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "使用者經驗",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "輔助科技導論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "應用生物力學",
+        "credit": 3
+      },
+      {
+        "category": "基礎",
+        "name": "醫電工程概論",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "人工智慧",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "人因工程",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "人體姿勢與動作分析",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "生醫材料之臨床應用",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "生醫材料導論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "感測器導論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "電腦輔助設計與製造",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "生醫材料商品化流程",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "創新設計與智慧輔具",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "醫療電子應用設計專題",
+        "credit": 3
+      }
+    ],
+    "requirements": {
+      "totalCredits": 8,
+      "minCoursesPerCategory": {
+        "基礎": 1,
+        "核心": 1,
+        "應用": 1
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程為臺北醫學大學與國立台北科技大學共同開發設立之跨校微學程課程，凡兩校學生皆可跨校選修本學程規劃表所列課程。本學程需修習 8 學分，包含基礎、核心、應用課程需至少各選修 1 門課(不含工作坊課程)。 本校學生於本學程規劃表中，課程選修合計 8 學分以上者，即可獲得由本校 跨領域學院出具之微學程證明(本辦法經本校課程委員會通過後公告施行；修正時亦同。若有任何事項與本校相關法規有異，將以本校相關法規為基準)。"
+    }
+  },
+  {
+    "programName": "輔助科技跨域微學程",
+    "domain": "創新創業領域",
+    "year": 109,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/輔助科技跨域微學程/輔助科技跨域微學程1091.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "使用者經驗",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "輔助科技導論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "應用生物力學",
+        "credit": 3
+      },
+      {
+        "category": "基礎",
+        "name": "醫電工程概論",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "3D熱熔與光固化列印機操作工作坊",
+        "credit": 0.5
+      },
+      {
+        "category": "核心",
+        "name": "人工智慧",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "人因工程",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "人體姿勢與動作分析",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "生醫材料之臨床應用",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "生醫材料導論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "感測器導論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "電腦輔助設計與製造",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "生醫材料商品化流程",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "創新設計與智慧輔具",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "醫療電子應用設計專題",
+        "credit": 3
+      }
+    ],
+    "requirements": {
+      "totalCredits": 8,
+      "minCoursesPerCategory": {
+        "基礎": 1,
+        "核心": 1,
+        "應用": 1
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程為臺北醫學大學與國立台北科技大學共同開發設立之跨校微學程課程，凡兩校學生皆可跨校選修本學程規劃表所列課程。本學程需修習8學分，包含基礎、核心、應用課程需至少各選修1門課(不含工作坊課程)。本校學生於本學程規劃表中，課程選修合計8學分以上者，即可獲得由本校跨領域學院出具之微學程證明(本辦法經本校課程委員會通過後公告施行；修正時亦同。若有任何事項與本校相關法規有異，將以本校相關法規為基準)。"
+    }
+  },
+  {
+    "programName": "輔助科技跨域微學程",
+    "domain": "創新創業領域",
+    "year": 109,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/輔助科技跨域微學程/輔助科技跨域微學程1092.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "使用者經驗",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "輔助科技導論",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "應用生物力學",
+        "credit": 3
+      },
+      {
+        "category": "基礎",
+        "name": "醫電工程概論",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "3D熱熔與光固化列印機操作工作坊",
+        "credit": 0.5
+      },
+      {
+        "category": "核心",
+        "name": "人工智慧",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "人因工程",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "人體姿勢與動作分析",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "生醫材料之臨床應用",
+        "credit": 3
+      },
+      {
+        "category": "核心",
+        "name": "生醫材料導論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "感測器導論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "電腦輔助設計與製造",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "生醫材料商品化流程",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "創新設計與智慧輔具",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "醫療電子應用設計專題",
+        "credit": 3
+      }
+    ],
+    "requirements": {
+      "totalCredits": 8,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": 2,
+        "核心": 2,
+        "應用": 2
+      },
+      "requiredCategories": {
+        "基礎": true,
+        "核心": true,
+        "應用": true
+      },
+      "note": "本學程為臺北醫學大學與國立台北科技大學共同開發設立之跨校微學程課程，凡兩校學生皆可跨校選修本學程規劃表所列課程。本學程需修習8學分，包含基礎、核心、應用課程需至少各需選修2學分。本校學生於本學程規劃表中，課程選修合計8學分以上者，即可獲得由本校跨領域學院出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "體感科技微學程",
+    "domain": "未分類",
+    "year": 107,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/體感科技微學程/體感科技微學程1071.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-行動載具的使用者經驗設計",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-虛擬實境概論",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域2.0)-電腦圖學",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "3D創作實境與應用",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-現代遊戲開發",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-虛擬實境與環景影片製作",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-體感3D建模",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "體感科技實作",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 1
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需選修1門課，學生可自行從本微學程規劃表中修讀所需課程，完成者可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "體感科技微學程",
+    "domain": "未分類",
+    "year": 107,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/體感科技微學程/體感科技微學程1072.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-行動載具的使用者經驗設計",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-虛擬實境概論",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域2.0)-電腦圖學",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "3D創作實境與應用",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-現代遊戲開發",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-虛擬實境與環景影片製作",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-體感3D建模",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "體感科技實作",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 1
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需選修1門課，學生可自行從本微學程規劃表中修讀所需課程，完成者可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "體感科技微學程",
+    "domain": "未分類",
+    "year": 108,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/體感科技微學程/體感科技微學程1081.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-行動載具的使用者經驗設計",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-虛擬實境概論",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域2.0)-電腦圖學",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域2.0)-遊戲設計",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域2.0)-數位遊戲概論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "3D創作實境與應用",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-現代遊戲開發",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-虛擬實境與環景影片製作",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-體感3D建模",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "體感科技實作",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 1
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需選修1門課，學生可自\n行從本微學程規劃表中修讀所需課程，完成者可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "體感科技微學程",
+    "domain": "未分類",
+    "year": 108,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/體感科技微學程/體感科技微學程1082.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-行動載具的使用者經驗設計",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-虛擬實境概論",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域2.0)-電腦圖學",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域2.0)-數位遊戲概論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "3D創作實境與應用",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "Blender3D動畫製作工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "Blender3D基礎概念工作坊",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-現代遊戲開發",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-虛擬實境與環景影片製作",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-體感3D建模",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "體感科技實作",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 1
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": null
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需選修1門課，學生可自行從本微學程規劃表中修讀所需課程，完成者可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "體感科技微學程",
+    "domain": "未分類",
+    "year": 109,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/體感科技微學程/體感科技微學程1091.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-行動載具的使用者經驗設計",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-虛擬實境概論",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域2.0)-電腦圖學",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域2.0)-數位遊戲概論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "Blender3D動畫製作工作坊",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "Blender3D基礎概念工作坊",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "互動媒體科技",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-現代遊戲開發",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-虛擬實境與環景影片製作",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-體感3D建模",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-VR與GIS於生態旅遊的應用",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "體感科技實作",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": 1
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少 各需選修 1學分，學生可自行從本微學程規劃表中修讀所需課程，完成者可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "體感科技微學程",
+    "domain": "未分類",
+    "year": 109,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/體感科技微學程/體感科技微學程1092.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-行動載具的使用者經驗設計",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-虛擬實境概論",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域2.0)-電腦圖學",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域2.0)-數位遊戲概論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "Blender3D動畫製作工作坊",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "Blender3D基礎概念工作坊",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "互動媒體科技",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-現代遊戲開發",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-虛擬實境與環景影片製作",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-體感3D建模",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-VR與GIS於生態旅遊的應用",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "體感科技實作",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": 1
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少 各需選修 1學分，學生可自行從本微學程規劃表中修讀所需課程，完成者可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "體感科技微學程",
+    "domain": "未分類",
+    "year": 110,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/體感科技微學程/體感科技微學程1101.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-行動載具的使用者經驗設計",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-虛擬實境概論",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域2.0)-電腦圖學",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域2.0)-數位遊戲概論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "Blender3D動畫製作工作坊",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "Blender3D基礎概念工作坊",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "互動媒體科技",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-現代遊戲開發",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-虛擬實境與環景影片製作",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-體感3D建模",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-VR與GIS於生態旅遊的應用",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "體感科技實作",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": 1
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少 各需選修 1學分，學生可自行從本微學程規劃表中修讀所需課程，完成者可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "體感科技微學程",
+    "domain": "未分類",
+    "year": 110,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/體感科技微學程/體感科技微學程1102.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域0.5)-人體結構與經絡穴位",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-行動載具的使用者經驗設計",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-虛擬實境概論",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域2.0)-電腦圖學",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域2.0)-數位遊戲概論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "Blender3D動畫製作工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "Blender3D基礎概念工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "互動媒體科技",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-現代遊戲開發",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-虛擬實境與環景影片製作",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-體感3D建模",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-VR與GIS於生態旅遊的應用",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "體感科技實作",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": 1
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需選修1學分，學生可自行從本微學程規劃表中修讀所需課程，完成者可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "體感科技微學程",
+    "domain": "未分類",
+    "year": 111,
+    "semester": "第一學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/體感科技微學程/體感科技微學程1111.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域0.5)-人體結構與經絡穴位",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域0.5)-打造具療癒效果之沉浸體驗",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-行動載具的使用者經驗設計",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-虛擬實境概論",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域2.0)-電腦圖學",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域2.0)-數位遊戲概論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "AR擴增實境應用於療癒性體驗",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "Blender3D動畫製作工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "Blender3D基礎概念工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "互動媒體科技",
+        "credit": 2
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-現代遊戲開發",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-虛擬實境與環景影片製作",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-體感3D建模",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域0.5)-運用VR技術於照護員訓練之實境專案開發",
+        "credit": 0.5
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-VR與GIS於生態旅遊的應用",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "體感科技實作",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": 1
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需選修1學分，學生可自行從本微學程規劃表中修讀所需課程，完成者可獲得由校方教務處出具之微學程證明。"
+    }
+  },
+  {
+    "programName": "體感科技微學程",
+    "domain": "未分類",
+    "year": 111,
+    "semester": "第二學期",
+    "type": "微學程",
+    "sourcePath": "excels/微學程清單/體感科技微學程/體感科技微學程1112.xls",
+    "courses": [
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域0.5)-人體結構與經絡穴位",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域0.5)-打造具療癒效果之沉浸體驗",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域0.5)-虛擬實境故事與腳本敘述模式",
+        "credit": 0.5
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-行動載具的使用者經驗設計",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域1.0)-虛擬實境概論",
+        "credit": 1
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域2.0)-電腦圖學",
+        "credit": 2
+      },
+      {
+        "category": "基礎",
+        "name": "數位自學(跨領域2.0)-數位遊戲概論",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "AR擴增實境應用於療癒性體驗",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "Blender3D動畫製作工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "Blender3D基礎概念工作坊",
+        "credit": 1
+      },
+      {
+        "category": "核心",
+        "name": "互動媒體科技",
+        "credit": 2
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(跨領域0.5)-Unity程式基礎",
+        "credit": 0.5
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(跨領域0.5)-次世代3D美術基礎",
+        "credit": 0.5
+      },
+      {
+        "category": "核心",
+        "name": "數位自學(跨領域0.5)-擬真3D物件製程",
+        "credit": 0.5
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-人機介面實作與評估",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-沉浸式敘事與虛擬實境腳本實作",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-現代遊戲開發",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-虛擬實境與環景影片製作",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-體感3D建模",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域0.5)-運用VR技術於照護員訓練之實境專案開發",
+        "credit": 0.5
+      },
+      {
+        "category": "應用",
+        "name": "數位自學(跨領域1.0)-VR與GIS於生態旅遊的應用",
+        "credit": 1
+      },
+      {
+        "category": "應用",
+        "name": "體感科技實作",
+        "credit": 2
+      }
+    ],
+    "requirements": {
+      "totalCredits": 6,
+      "minCoursesPerCategory": {
+        "基礎": 0,
+        "核心": 0,
+        "應用": 0
+      },
+      "perCategoryCredits": {
+        "基礎": null,
+        "核心": null,
+        "應用": 1
+      },
+      "requiredCategories": {
+        "基礎": false,
+        "核心": false,
+        "應用": true
+      },
+      "note": "凡本校學生皆可修習本學程。本學程需修習6學分，包含基礎、核心、應用課程，基礎、核心及應用課程至少各需選修1學分，學生可自行從本微學程規劃表中修讀所需課程，完成者得取得本微學程。"
     }
   }
 ]
